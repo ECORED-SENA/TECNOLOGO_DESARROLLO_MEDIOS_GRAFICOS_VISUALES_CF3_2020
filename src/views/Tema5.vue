@@ -9,7 +9,7 @@
     
     figure.mb-5
       img(src="@/assets/template/tema-5-1.png", alt="Texto que describa la imagen")
-    p.mb-4 La arquitectura de la información va muy ligada al concepto UX y se puede definir como la organización de todas las partes de algo, para que sea lo más comprensible posible
+    p.mb-4 La arquitectura de la información va muy ligada al concepto UX y se puede definir como la organización de todas las partes de algo, para que sea lo más comprensible posible.
     .row.mb-4 
       .col-12.col-lg-8
         p.mb-2 La arquitectura de la información busca básicamente el ordenamiento de todos los datos disponibles para que el usuario de manera lógica y ordenada realice la búsqueda de forma más rápida, fácil, ágil y dinámica.
@@ -99,7 +99,7 @@
               figure.mb-5
                 img(src="@/assets/template/tema-5-12.svg", alt="Texto que describa la imagen")
             .col-12.col-lg-8.align-self-center
-              .h5 Hibrido: 
+              .h5 Híbrido: 
               p Es una combinación de los dos tipos anteriores. El usuario recibe las tarjetas con categorías ya determinadas, ellos las organizan, pero también tienen la posibilidad de crear otras que deseen o les parezcan convenientes.
     p.mb-5 En la actualidad, existen programas de software que coadyuvan en esta tarea, evitando tener tarjetas físicas y el programa se encarga de agrupar los resultados para analizarlos fácilmente, como el software Optimal Sort.
     
@@ -132,7 +132,7 @@
           .tarjeta.tarjeta--azul.borde-gris
             .p-4
               .h2 Coincidencia entre el sistema y el mundo real:
-              p Informa al usuario lo que está ocurriendo en el sistema.
+              p La información debe mostrarse en un orden natural y lógico.
     .row.mt-3
       .col-lg-6
         .tarjeta-avatar-b

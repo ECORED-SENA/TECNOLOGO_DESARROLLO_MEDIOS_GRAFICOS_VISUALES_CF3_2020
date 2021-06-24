@@ -140,12 +140,12 @@ export default {
       },
     ],
     subMenu: [
-      {
+      /* {
         nombreRuta: 'actividad',
         icono: 'far fa-question-circle',
         titulo: 'Actividad didáctica',
         desarrolloContenidos: true,
-      },
+      }, */
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -288,17 +288,17 @@ export default {
     {
       termino: 'Hipermedia',
       significado:
-        '       Hace referencia a la convergencia de diversos medios (textos, imágenes, sonidos, videos), permitiendo estructurar la información de una manera no secuencial, a través de nodos interconectados por enlaces.',
+        'hace referencia a la convergencia de diversos medios (textos, imágenes, sonidos, videos), permitiendo estructurar la información de una manera no secuencial, a través de nodos interconectados por enlaces.',
     },
     {
       termino: 'Hipertexto',
       significado:
-        'Conjunto estructurado de textos, gráficos, etc., unidos entre sí por enlaces y conexiones lógicas (Real Academia Española, 2021, definición 1).',
+        'conjunto estructurado de textos, gráficos, etc., unidos entre sí por enlaces y conexiones lógicas (Real Academia Española, 2021, definición 1).',
     },
     {
       termino: 'Interfaz',
       significado:
-        'Conexión o frontera común entre dos aparatos o sistemas independientes.Conexión, física o lógica, entre una computadora y el usuario, un dispositivo periférico o un enlace de comunicaciones (Real Academia Española, 2021, definición 1 y 2).',
+        'conexión o frontera común entre dos aparatos o sistemas independientes.Conexión, física o lógica, entre una computadora y el usuario, un dispositivo periférico o un enlace de comunicaciones (Real Academia Española, 2021, definición 1 y 2).',
     },
     {
       termino: 'Link ',

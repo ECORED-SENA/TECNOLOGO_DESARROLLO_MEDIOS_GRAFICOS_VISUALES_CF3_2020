@@ -9,8 +9,9 @@
     p.mb-4 Todo proyecto nace con la necesidad de resolver, generar o ejecutar una idea en particular. Este momento de creación es llamado preproducción y comprende en este caso la creación de diferentes componentes como el guion y el storyboard. Esta fase permite reconocer cuáles herramientas y recursos serán necesarios, para el desarrollo del proyecto en general.
     p.mb-4 El siguiente cuadro presenta los pasos a seguir en preproducción, de un proyecto gráfico, desde el inicio del proyecto hasta las decisiones y acciones tomadas previas a su ejecución. 
     figure.mb-3
-      img(src="@/assets/template/tema-4-1.png", alt="Texto que describa la imagen")
+      img(src="@/assets/template/tema-4-1.svg", alt="Texto que describa la imagen")
     figcaption.mb-5 Referencia  Adaptado de Sepulveda y Quiceno (2015)
+    p.mt-5.mb-5 Los pasos indicados en el esquema facilitan la comprensión de los requerimientos del proyecto, promoviendo el proceso creativo, la colaboración y trabajo en equipo. A continuación, su descripción:
     LineaTiempoD.color-acento-contenido.mb-5
       .row(numero="1" titulo="Necesidad: ")
         .col-md-4
@@ -18,7 +19,7 @@
             img(src='@/assets/template/tema-4-2.png', alt='Texto que describa la imagen')
 
         .col-md-8.mb-4.mb-md-0
-          p La necesidad se encuentra enmarcada en la carencia o falta de algo, a partir de allí crear un nuevo proyecto editorial respondiendo a los interrogantes: ¿qué?, ¿para quién?, ¿cuándo?, ¿cuánto?, ¿cómo?, ¿en qué medio?, etc
+          p La necesidad se encuentra enmarcada en la carencia o falta de algo, a partir de allí crear un nuevo proyecto editorial respondiendo a los interrogantes: ¿qué?, ¿para quién?, ¿cuándo?, ¿cuánto?, ¿cómo?, ¿en qué medio?, etc.
 
       .row(numero="2" titulo="Requerimientos:")
         .col-md-4
@@ -42,7 +43,7 @@
             img(src='@/assets/template/tema-4-5.png', alt='Texto que describa la imagen')
 
         .col-md-8.mb-4.mb-md-0
-          p Equipo de expertos interdisciplinarios para el desarrollo del proyecto en cada etapa de su diseño, ejecución y validación.
+          p Las sesiones creativas son fundamentales para el desarrollo de nuevas ideas, estrategias, metodologías y puesta en marcha del proyecto. Allí confluye todo el equipo de expertos y nacen las mejores ideas. Para que estas sesiones sean productivas, es necesario implementar un planning con reuniones periódicas y actividades definidas para cada persona o grupos de trabajo. Una estrategia que se puede implementar es la lluvia de ideas.
       .row(numero="5" titulo="Brainstorming:")
         .col-md-4
           figure

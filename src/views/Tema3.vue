@@ -275,19 +275,19 @@ export default {
   data: () => ({
     datosSlyder: [
       {
-        titulo: 'JPG',
+        titulo: 'JPG - Joint Photographic Experts Group',
         texto:
           'Es el formato más conocido y utilizado para la compresión de imágenes de alta calidad, como imágenes captadas por fotógrafos. Las imágenes que son constantemente editadas en su tamaño, van a tener una pérdida de calidad acumulativa. ',
         imagen: require('@/assets/template/tema-3-8.png'),
       },
       {
-        titulo: 'GIF',
+        titulo: 'GIF - Graphics Interchange Format',
         texto:
           'Este tipo de formato es muy utilizado en animaciones de poco peso. Son empleados por sus características principalmente en redes sociales, ya que comunican de manera rápida y asertiva diversos tipos de sentimientos. ',
         imagen: require('@/assets/template/tema-3-9.png'),
       },
       {
-        titulo: 'PNG',
+        titulo: 'PNG - Portable Network Graphics',
         texto:
           'Este tipo de formato permite el uso y manejo de transparencias, por lo cual es muy utilizado en internet.',
         imagen: require('@/assets/template/tema-3-10.svg'),

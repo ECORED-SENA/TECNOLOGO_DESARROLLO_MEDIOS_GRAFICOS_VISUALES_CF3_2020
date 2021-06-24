@@ -34,9 +34,9 @@
     .tabla-a.color-acento-contenido.mt-4
       table
         caption.mt-3 Referencia Sena
-        thead
+        thead(style="border:0px ")
           tr
-            th(colspan='6').py-3
+            th(colspan='4').py-3(style="border-top: 5px solid #F57C22")
               .h3.m-0 Estímulo
           tr.bg-naranja
             th(colspan='2').py-4 Experiencia estética 
@@ -44,14 +44,14 @@
             th(colspan='2') Experiencia afectiva 
         tbody
           tr.bg-gris.text-center
-            td.py-3 Estética clásica  
-            td Estética expresiva
-            td Usabilidad
-            td Motivación utilitaria
-            td Satisfacción
+            td.py-3(style="border-right: 1px solid #AFAFAF") Estética clásica  
+            td(style="border-right: 1px solid #AFAFAF") Estética expresiva
+            td(style="border-right: 1px solid #AFAFAF") Usabilidad
+            td(style="border-right: 1px solid #AFAFAF") Motivación utilitaria
+            td(style="border-right: 1px solid #AFAFAF") Satisfacción
             td Disfrute, belleza
           tr.text-center.bg-naranja-claro
-            td(colspan='6').py-3 Carácter neurosensorial       +         Carácter cognitivo       =        Carácter afectivo
+            td(colspan='6').py-3 #[strong Carácter neurosensorial       +         Carácter cognitivo       =        Carácter afectivo]
     p.mt-4 El diseñador de la experiencia de usuario debe concentrar su conocimiento en desarrollar los siguientes aspectos:
     .row.mt-5 
       .col-10.col-md-8.offset-1.offset-md-2
@@ -87,11 +87,14 @@
       #t_6_2.h4 6.2  Diseño UI
     .row.mt-4
       .col-12.col-lg-6.align-self-center
-        p El diseño UI, o interfaz de usuario, es el proceso mediante el cual se pueden definir los elementos correspondientes a crear interfaces entre las personas y los diferentes dispositivos digitales, resaltando no solo la parte visual, en cuanto a forma, función y utilidad, sino guiando al usuario durante toda su experiencia de una manera fácil y amigable en su uso. Su función principal es la de mejorar la experiencia del usuario
+        p El diseño UI, o interfaz de usuario, es el proceso mediante el cual se pueden definir los elementos correspondientes a crear interfaces entre las personas y los diferentes dispositivos digitales, resaltando no solo la parte visual, en cuanto a forma, función y utilidad, sino guiando al usuario durante toda su experiencia de una manera fácil y amigable en su uso. Su función principal es la de mejorar la experiencia del usuario.
         p.mt-4 Las nuevas tecnologías también afectan al diseño, por eso en el diseño UI, es fundamental la experiencia del usuario digital en cuanto a la parte visual en la navegación y a las interfaces con las que interactúe, preferiblemente utilizando el menor número de pantallas. Es importante destacar que el usuario digital desea que la experiencia sea agradable, sencilla, funcional, interesante y atrayente, a través de la percepción de formas, colores y diseños que le resulten muy atractivos, con indicaciones de interacción claras y concretas; que se traduzca en una venta efectiva, o en el retorno o permanencia de dicho usuario con la página web.
+        p.text-center.mt-5.mb-5 #[strong UI = arquitectura de información + elementos visuales + interacción.]
       .col-8.offset-2.col-lg-6.offset-lg-0.align-self-center.mt-4
         figure.mb-5
          img(src="@/assets/template/tema-6-5.png", alt="Texto que describa la imagen")
+    .col-12
+        p Un buen manejo y uso de una UI, permite un excelente manejo de la UX, pero no lo es todo.
     .h4.mt-4 Diseño UI
     .row
       .col-3.offset-4.col-lg-2.offset-lg-5
@@ -107,7 +110,7 @@
       .col-8.offset-2.col-lg-4.offset-lg-0.align-self-center
         figure.mb-5
           img(src="@/assets/template/tema-6-7.png", alt="Texto que describa la imagen")
-    p.mt-4 
+    p.mt-5.mb-5 Para lograr un diseño de página o sitio web de gran calidad, es necesario considerar las fases que a continuación se describen:
     LineaTiempoD.color-acento-contenido.mb-5
       .row(numero="a" titulo="Análisis del proyecto y definición de los objetivos: ")
         .col-md-4
@@ -151,7 +154,7 @@
         .row
           .col-md-8.mb-4.mb-md-0
             .h4 Diseño
-            p Una vez se conozca las condiciones iniciales del proyecto se da inicio al desarrollo de la idea; en esta etapa, interactúan diversos elementos como imágenes, animaciones, sonido, audios, videos, entre otros, que deben estructurase en forma lógica de acuerdo con los objetivos y propósitos del sitio.
+            p Una vez se conozca las condiciones iniciales del proyecto se da inicio al desarrollo de la idea; en esta etapa, interactúan diversos elementos como imágenes, animaciones, sonido, audios, videos, entre otros, que deben estructurarse en forma lógica de acuerdo con los objetivos y propósitos del sitio.
           .col-6.offset-3.col-md-4.offset-md-0.align-self-center
             figure
               img(src='@/assets/template/tema-6-15.svg', alt='Texto que describa la imagen').w-75

@@ -123,7 +123,8 @@
           .col-12.col-lg-9.px-5.align-self-center
             .h4.mb-4 j.	Retícula responsive
             p El uso de nuevas tecnologías y sus diversos formatos, hacen que los elementos estéticos y de diseño se tengan que adaptar a su entorno y funcionalidad; esta retícula se adapta para conseguir una regularidad en las páginas web, aunque sean abiertas en diferentes dispositivos, con unas dimensiones de pantalla distintas, que exigen un cambio estructural del diseño. A este cambio se le conoce como breakpoint (punto de ruptura).  
-    .h4.mt-5 Comparación entre UX - UI
+    p.mt-5.mb-5 Abordadas las consideraciones respecto al diseño digital, es el momento de tratar aspectos generales del guion y Storyboard.
+    .h4.mt-5 El guión literario
     .row.mt-4
       .col-12.col-lg-9.align-self-center
         p El guion literario es una herramienta secuencial en el desarrollo de productos multimedia, está enmarcada en el diseño mismo de aplicabilidad, en la creación y concepto del producto.  Se necesita un guion literario para describir paso a paso el contenido total de un proyecto, que exprese en forma detallada lo que se quiere transmitir; es decir, el mensaje, por lo que es preciso investigar y preparar la historia. Describe las diversas situaciones, los diálogos y las acciones en la historia a contar. Este guion podrá ser de ficción o realidad; en esta última clasificación, se encuentran los guiones informativos, los de formación y de opinión, los cuales sirven para evitar incongruencias, nerviosismo, titubeos, coletillas, etc.; enfocándose en el tema y logrando precisión en el desarrollo de la historia. 
