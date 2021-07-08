@@ -5,95 +5,106 @@
     .titulo-principal
       .titulo-principal__numero
         span 4
-      h1 Preproducción
-    p.mb-4 Todo proyecto nace con la necesidad de resolver, generar o ejecutar una idea en particular. Este momento de creación es llamado preproducción y comprende en este caso la creación de diferentes componentes como el guion y el storyboard. Esta fase permite reconocer cuáles herramientas y recursos serán necesarios, para el desarrollo del proyecto en general.
-    p.mb-4 El siguiente cuadro presenta los pasos a seguir en preproducción, de un proyecto gráfico, desde el inicio del proyecto hasta las decisiones y acciones tomadas previas a su ejecución. 
-    figure.mb-3
-      img(src="@/assets/template/tema-4-1.svg", alt="Texto que describa la imagen")
-    figcaption.mb-5 Referencia  Adaptado de Sepulveda y Quiceno (2015)
-    p.mt-5.mb-5 Los pasos indicados en el esquema facilitan la comprensión de los requerimientos del proyecto, promoviendo el proceso creativo, la colaboración y trabajo en equipo. A continuación, su descripción:
-    LineaTiempoD.color-acento-contenido.mb-5
-      .row(numero="1" titulo="Necesidad: ")
-        .col-md-4
-          figure
-            img(src='@/assets/template/tema-4-2.png', alt='Texto que describa la imagen')
+      h1 Bocetación
+    .row.mb-5
+      .col-lg-6 
+        p Pese a todo lo antes mencionado, el ejercicio creativo no está sujeto a prerrequisitos y salvo que exista una solicitud muy específica en la documentación inicial de un proyecto, no se preconcibe la figura literaria o el discurso detrás de una obra con anterioridad a su creación. Los recursos existen y al conocerlos y entenderlos podemos acercarlos a nuestro estilo y crear algo que comunique y cuya intención eventualmente sea objeto de análisis. Pero finalmente para crear hay que hacer y practicar. La bocetación es un ejercicio creativo clave e impostergable, de los primeros y más importantes pasos previos del diseño.
+      .col-lg-6 
+        figure.mb-5 
+          img(src='@/assets/curso/img112.jpg', alt='Texto que describa la imagen')
+    #t_4_1.titulo-segundo
+      h2 4.1 Definición y tipos
+    p.mb-5 El boceto es una práctica gráfica para bosquejar ideas y plasmarlas visualmente como parte del proceso creativo. Es una ilustración rápida y sin detalles ni acabados. El boceto es una herramienta práctica empleada en muchos medios creativos incluyendo obviamente, el diseño, pero también en la arquitectura, diseño industrial y de modas, animación y naturalmente, arte e ilustración.
+      br
+      br
+      |Algunas características que el boceto tiene y con las que debe cumplir para que su labor sea exitosa incluyen.
+    .row.mb-5
+      .col-lg-6.mb-3 
+        .tarjeta--botones2.d-flex.h-100
+          img(src='@/assets/curso/img113.svg', alt='Texto que describa la imagen' style='height:118px')
+          .tarjeta__textos.p-2
+            p.mb-0 Estar acompañados de apuntes o anotaciones, las ideas tienden a desvanecerse, así que, a pesar de la simpleza del dibujo, es importante tomar nota de los detalles.
+      .col-lg-6.mb-3 
+        .tarjeta--botones2.d-flex
+          img(src='@/assets/curso/img113.svg', alt='Texto que describa la imagen' style='height:118px')
+          .tarjeta__textos.p-2
+            p Se debe elaborar rápidamente, si la elaboración del boceto lleva varias horas o días, el concepto de boceto no está claro. Es un ejercicio de algunos minutos y se debe realizar relajadamente.
+      .col-lg-6.mb-3 
+        .tarjeta--botones2.d-flex.h-100
+          img(src='@/assets/curso/img113.svg', alt='Texto que describa la imagen' style='height:118px')
+          .tarjeta__textos.p-2
+            p.mb-0 Debe ser representativo, eso quiere decir que no es necesario desgastarse en detalles. Se recomienda el uso de formas simples.
+      .col-lg-6.mb-3 
+        .tarjeta--botones2.d-flex
+          img(src='@/assets/curso/img113.svg', alt='Texto que describa la imagen' style='height:118px')
+          .tarjeta__textos.p-2
+            p El boceto nunca se trabaja a tamaño final, siempre debe ser una representación a escala del proyecto a realizar.
+    p.mb-5 En cuanto a los tipos, estos pueden ser:   
+    SlyderD.mb-5(:datos="datosSlyder")
+    p.mb-5 Finalmente, existen algunos niveles en el desarrollo de los bocetos, para una misma idea, un boceto burdo, el semi-completo y el dummy (Hurtado, s.f.).
+    #t_4_2.titulo-segundo
+      h2 4.2 Técnicas, la bitácora y recursos gráficos
+    p.mb-5 Los principios que rigen la creación de bocetos son los mismos que rigen el dibujo, con la ventaja de que no es indispensable prestar tanta atención al detalle.
+    .row.mb-5
+      .col-md-3.col-lg.mb-5.mb-lg-5
+        .tarjeta-avatar
+          img(src='@/assets/curso/img119.svg' alt='AvatarTop' style='height: 180px')
+          //- .tarjeta debe ir acompañado de una de una de estas clases => 
+          //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+          //- estas clases tambien tienen un modificador --borde
+          .tarjeta.color-primario.w-100
+            .p-4.mt-5
+              h2.text-center Líneas y trazos 
+              p.text-center Pueden ser rectas o curvas, continuas o discontinuas y de diferente calibre o grosor según la herramienta empleada o la presión ejercida.
+      
+      .col-md-3.col-lg.mb-5.mb-lg-5
+        .tarjeta-avatar
+          img(src='@/assets/curso/img120.svg' alt='AvatarTop')
+          //- .tarjeta debe ir acompañado de una de una de estas clases => 
+          //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+          //- estas clases tambien tienen un modificador --borde
+          .tarjeta.color-secundario.w-100
+            .p-4.mt-5
+              h2.text-center Construcción espacial 
+              p.text-center El uso de líneas horizontales, verticales y diagonales da lugar a la construcción de formas y la relación de dichas formas da como resultado la generación de relaciones espaciales.
+      .col-md-3.col-lg.mb-5.mb-lg-5
+        .tarjeta-avatar
+          img(src='@/assets/curso/img121.svg' alt='AvatarTop ' style='height: 180px')
+          //- .tarjeta debe ir acompañado de una de una de estas clases => 
+          //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
+          //- estas clases tambien tienen un modificador --borde
+          .tarjeta.color-acento-botones.w-100
+            .p-4.mt-5
+              h2.text-center Planos, luz y contorno  
+              p.text-center La bocetación permite, mediante el uso de sombras, simular el efecto de la luz sobre las superficies de las formas dibujadas. La práctica permite influir en la percepción y transmitir la sensación de contorno volumétrico.
+    .row.mb-5
+      .col-lg-5
+        figure.mb-5 
+          img(src='@/assets/curso/img122.jpg', alt='Texto que describa la imagen')
+      .col-lg-6
+        h3 La bitácora: 
+        p Tanto en los procesos de formación como el más experto profesional, lleva o debería llevar una bitácora o libro de apuntes dedicado a la elaboración de bocetos. Estos apuntes y dibujos rápidos son la diferencia entre un proyecto con bases firmes y la improvisación.
+    .row.mb-5
+      .col-lg-5
+        figure.mb-5 
+          img(src='@/assets/curso/img123.jpg', alt='Texto que describa la imagen')
+      .col-lg-6
+        h3 Recursos gráficos:
+        p Lo mejor de la bocetación es que es un recurso creativo de bajo costo. Cualquier superficie es válida para rayar, si bien es más recomendable una libreta o cuaderno que permita la conservación y protección del material. Es más importante y valiosa la capacidad de observación, un entorno tranquilo y consumir material gráfico. La creatividad necesita nutrirse para poder crecer y sobresalir.
 
-        .col-md-8.mb-4.mb-md-0
-          p La necesidad se encuentra enmarcada en la carencia o falta de algo, a partir de allí crear un nuevo proyecto editorial respondiendo a los interrogantes: ¿qué?, ¿para quién?, ¿cuándo?, ¿cuánto?, ¿cómo?, ¿en qué medio?, etc.
 
-      .row(numero="2" titulo="Requerimientos:")
-        .col-md-4
-          figure
-            img(src='@/assets/template/tema-4-3.png', alt='Texto que describa la imagen')
 
-        .col-md-8.mb-4.mb-md-0
-          p Impuestos a partir de las necesidades identificadas, y que son establecidas por parte del cliente, contexto, política, editorial u otra que demande el proyecto en particular.
 
-      .row(numero="3" titulo="Célula:")
-        .col-md-4
-          figure
-            img(src='@/assets/template/tema-4-4.png', alt='Texto que describa la imagen')
 
-        .col-md-8.mb-4.mb-md-0
-          p Equipo de expertos interdisciplinarios para el desarrollo del proyecto en cada etapa de su diseño, ejecución y validación.
 
-      .row(numero="4" titulo="Sesiones creativas: ")
-        .col-md-4
-          figure
-            img(src='@/assets/template/tema-4-5.png', alt='Texto que describa la imagen')
 
-        .col-md-8.mb-4.mb-md-0
-          p Las sesiones creativas son fundamentales para el desarrollo de nuevas ideas, estrategias, metodologías y puesta en marcha del proyecto. Allí confluye todo el equipo de expertos y nacen las mejores ideas. Para que estas sesiones sean productivas, es necesario implementar un planning con reuniones periódicas y actividades definidas para cada persona o grupos de trabajo. Una estrategia que se puede implementar es la lluvia de ideas.
-      .row(numero="5" titulo="Brainstorming:")
-        .col-md-4
-          figure
-            img(src='@/assets/template/tema-4-6.png', alt='Texto que describa la imagen')
 
-        .col-md-8.mb-4.mb-md-0
-          p O lluvia o tormenta de ideas. Esta herramienta generalmente es utilizada cuando se busca llegar a consensos o tomar decisiones en grupo. El brainstorming potencia los procesos creativos, y la generación de alternativas originales que ayudan en la resolución de una situación o problema.
-      .row(numero="6" titulo="Software: ")
-        .col-md-4
-          figure
-            img(src='@/assets/template/tema-4-7.png', alt='Texto que describa la imagen')
 
-        .col-md-8.mb-4.mb-md-0
-          p Los programas y aplicaciones son de vital importancia en la creación de cualquier proyecto digital. Es necesario contar con programas de diseño, interfaces y el manejo de plataformas y formatos requeridos, para la ejecución de cada proyecto editorial.
-      .row(numero="7" titulo="Validación:")
-        .col-md-4.align-self-center
-          figure
-            img(src='@/assets/template/tema-4-8.png', alt='Texto que describa la imagen')
 
-        .col-md-8.mb-4.mb-md-0
-          p.mb-4 La validación de un proyecto consiste en la aprobación y verificación de todos los pasos requeridos para la ejecución del mismo. Por lo general esta validación está aprobada por el cliente, un director de arte o diseño.
-          p La validación tiene las siguientes características: 
-          .col-12.mt-3
-            .row.mb-4
-              .col-sm.mb-5.mb-sm-0
-                ul.lista-ul
-                  li.mb-0.d-block
-                    .row
-                      .col-1.text-align-right.p-0
-                        i.fas.fa-angle-right.color-c.text-center
-                      .col-11
-                        p.mb-2 Se mide por actividades estipuladas a cada equipo.
-                  li.mb-0.d-block
-                    .row
-                      .col-1.text-align-right.p-0
-                        i.fas.fa-angle-right.color-c.text-center
-                      .col-11
-                        p.mb-2 Valida plazos en los tiempos de ejecución de las tareas y labores estipuladas.
-                  li.mb-0.d-block
-                    .row
-                      .col-1.text-align-right.p-0
-                        i.fas.fa-angle-right.color-c.text-center
-                      .col-11
-                        p.mb-2 Determina la calidad de los componentes y las entregas ejecutadas.
-                  li.mb-0.d-block
-                    .row
-                      .col-1.text-align-right.p-0
-                        i.fas.fa-angle-right.color-c.text-center
-                      .col-11
-                        p.mb-2 Tiene en cuenta el feedbacks o retroalimentación de los clientes con la empresa y de los integrantes de los equipos de trabajo.
+
+
+
+
 
 
 </template>
@@ -106,7 +117,43 @@ export default {
     Muestras, // borrar una vez el componente "Muestras" no se necesite
   },
   data: () => ({
-    // variables de vue
+    datosSlyder: [
+      {
+        titulo: 'Dibujo espontáneo:',
+        texto:
+          'Se raya aleatoriamente sin tener nada específico en mente, luego se <b>“busca”</b> entre las líneas la posible figura a trabajar.',
+        imagen: require('@/assets/curso/img114.jpg'),
+        // leyendaImagen: 'Leyenda de la imagen',
+      },
+      {
+        titulo: 'Boceto-mini: ',
+        texto:
+          'Ya se ha dicho que un boceto debe estar a escala, sin embargo, en este tipo de boceto se hace más pequeño para disminuir los detalles.',
+        imagen: require('@/assets/curso/img115.jpg'),
+        // leyendaImagen: 'Leyenda de la imagen',
+      },
+      {
+        titulo: 'Boceto quemado: ',
+        texto:
+          'Se rellena la forma para evaluar la contraforma, esto permite evaluar la legibilidad y el uso del espacio.',
+        imagen: require('@/assets/curso/img116.jpg'),
+        // leyendaImagen: 'Leyenda de la imagen',
+      },
+      {
+        titulo: 'Boceto de contorno: ',
+        texto:
+          'El nombre lo explica, sólo se dibujan los contornos con mínimos detalles, es ideal para la construcción de escenas grandes.',
+        imagen: require('@/assets/curso/img117.jpg'),
+        // leyendaImagen: 'Leyenda de la imagen',
+      },
+      {
+        titulo: 'Experimentación de mancha: ',
+        texto:
+          'Similar al dibujo espontáneo, pero se utilizan áreas de tinta o alguna aguada y de allí se extraen las ideas.',
+        imagen: require('@/assets/curso/img118.jpg'),
+        // leyendaImagen: 'Leyenda de la imagen',
+      },
+    ],
   }),
 }
 </script>

@@ -1,268 +1,799 @@
-<template lang="pug">
+om<template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    .titulo-principal.mb-5
-        .titulo-principal__numero
-          span 3
-        h1 E-books, e-magazine, presentaciones, catálogos, e-card
+    .titulo-principal
+      .titulo-principal__numero
+        span 3
+      h1 Teoría del color
     figure.mb-5
-      img(src="@/assets/template/tema-3-1.png", alt="Texto que describa la imagen")
-    p.mb-5 Muchas de las publicaciones que se conocen en la era de la impresión, como libros, revistas, catálogos, entre otros, han migrado sus componentes al ámbito digital, conservando muchas de sus características esenciales y desarrollando otras funcionalidades que permiten una mayor interactividad por parte del usuario. 
-    .row.mb-4 
-      .col-10.offset-1
-        .cajon.color-acento-botones.px-5.py-4.mb-4
-          .row
-            .col-md-3.col-lg-2.d-none.d-lg-block.align-self-center
-              figure.mb-5
-                img(src="@/assets/template/tema-3-2.svg", alt="Texto que describa la imagen")
-            .col-12.col-lg-8.align-self-center
-              p Existen diversos tipos de publicaciones que se distribuyen con diferente periodicidad. Las publicaciones periódicas salen al mercado de una manera regular, ya sea diariamente, semanal, quincenal o mensual; dentro de estas publicaciones, se encuentran por ejemplo los libros y las revistas. Estas publicaciones sirven para difundir el conocimiento, información en diversos contextos, cultura, y noticias de interés.
-    p.mb-5 Para comprender en profundidad algunas diferencias entre las publicaciones impresas y electrónicas, revise la siguiente tabla:
-    p.mb-4 Comparación entre publicaciones impresas y digitales
+      img(src='@/assets/curso/img74.jpg', alt='Texto que describa la imagen')
+    p.mb-5 El color es un atributo físico de la materia y un atributo que interpreta el cerebro de la información percibida por la vista que constituye una contradicción del sistema sensorial ya que en realidad el ojo percibe las ondas electromagnéticas que los objetos no absorben. La luz incide sobre un objeto y las frecuencias de onda comunes son absorbidas por éste mientras que las demás se reflejan. Sin embargo, dado que el marco de referencia de nuestro conocimiento es la percepción, no conviene profundizar demasiado en el fenómeno filosófico de la composición de la materia.
+    #t_3_1.titulo-segundo
+      h2 3.1 Definición y fundamentos
+    p.mb-5 La teoría (o teorías) del color es un esfuerzo continuado por guiar y comprender la relación entre los colores y la manera de ordenarlos para su uso (mezcla) en el arte, el diseño y la ciencia. La aplicación de la teoría del color debe llevar a la elaboración de piezas estéticamente funcionales y armoniosas en su percepción. Basta tener presente, a nivel conceptual que la vista percibe la luz y que la luz blanca es la sumatoria de todas las frecuencias de onda del espectro visible, lo que significa que la luz transporta el color y la materia descompone, por decirlo de alguna manera, la luz y esa información es la que nuestros ojos y cerebro decodifica.
+    TabsA.color-acento-contenido.mb-5
+      .tarjeta.color--naranja-claro.p-4(titulo="Tabla de Kirchner ").p-4
+        .row
+          .col-xl-3.mb-4
+            figure
+              img(src='@/assets/curso/img75.jpg', alt='Texto que describa la imagen')
+          .col-xl-8
+            h4 La tabla de Kirchner (1671): 
+            p Presenta un modelo bidimensional con una línea que grada del blanco al negro pasando por el amarillo, el rojo y el azul. Unos arcos semicirculares dan paso a las combinaciones de color.
+      .tarjeta.color--naranja-claro.p-4(titulo="Esfera de colores de Runge ").p-4
+        .row
+          .col-xl-3.mb-4
+            figure
+              img(src='@/assets/curso/img76.jpg', alt='Texto que describa la imagen')
+          .col-xl-8
+            h4 La esfera de colores de Runge (1810): 
+            p Es un modelo tridimensional en el cual ubicamos el blanco y negro en los polos, los colores claros están en la capa externa del hemisferio superior y en el inferior, los oscuros. El ecuador contiene los “colores puros”. Una revisión de este modelo se vio en 1961 en el libro: Arte de los colores de Johannes Itten. 
+      .tarjeta.color--naranja-claro.p-4(titulo="Cubos de color de Charpentier").p-4
+        .row
+          .col-xl-3.mb-4
+            figure
+              img(src='@/assets/curso/img77.jpg', alt='Texto que describa la imagen')
+          .col-xl-8
+            h4 Los cubos de color de Charpentier (1885) y Hickethier (1940): 
+            p Que mostraban variaciones en la distribución de los colores, el primero distribuía los colores claros en el exterior y los oscuros al interior, mientras el segundo sugería el negro y los colores secundarios en los vértices superiores, y los colores primarios junto al blanco en los inferiores.
+      .tarjeta.color--naranja-claro.p-4(titulo="Cuerpo de color de Ostwald").p-4
+        .row
+          .col-xl-3.mb-4
+            figure
+              img(src='@/assets/curso/img78.jpg', alt='Texto que describa la imagen')
+          .col-xl-8
+            h4 El cuerpo de color de Ostwald (1915): 
+            p Que encierra los colores dentro de un doble cono en una distribución similar a la esfera de Runge, buscaba solucionar las diferencias en tonos de los diferentes grupos de color.
+      .tarjeta.color--naranja-claro.p-4(titulo="Modelo de Munsell").p-4
+        .row
+          .col-xl-3.mb-4
+            figure
+              img(src='@/assets/curso/img79.jpg', alt='Texto que describa la imagen')
+          .col-xl-8
+            h4 El modelo de Munsell (1905) y el modelo matemático de la Comisión Internacional de Iluminación (usualmente conocida como CIE por las iniciales de su designación en francés: 
+            p Commission Internationale de l’Éclairage) (1931): son los espacios de color más estudiados en la actualidad; sin embargo, los modelos de estudio del color y la forma de aplicar el color en la industria son dos temas ligeramente diferentes.
+    #t_3_2.titulo-segundo
+      h2 3.2 Teoría aditiva y sustractiva
+    p.mb-5 La representación del color, por fuera del ámbito artístico, para su reproducción en medios gráficos visuales se enmarca en las teorías aditiva y sustractiva. Cada modo tiene características específicas y un ámbito de uso ideal, hace un tiempo equivocarse en el modo de color suponía una pérdida millonaria, hoy es más una mala práctica que debe corregirse por profesionalismo.
     .tabla-a.color-acento-contenido.mb-5 
       table
-        caption.mt-3 Referencia Tabla - Norma APA
         thead
           tr
-            th Impresos
-            th Digitales
-            th Similitudes
+            th Modo RGB
+            th Modo CMYK
+            
         tbody
           tr
-            td.py-5 Su base estructural está hecha en papel
-            td Dependen de un dispositivo tecnológico para su lectura. 
-            td Son medios de comunicación, difunden conocimientos, saberes e ideas de diversos temas.
-          tr
-            td.py-5 El medio impreso no permite una interrelación directa con el lector.
-            td El usuario tiene una experiencia en la cual puede interactuar con muchos recursos dispuestos, editar, subrayar, colocar, etc.  
-            td Contienen textos, imágenes, fotografías, entre otros. 
-          tr
-            td.py-5 El libro puede ser leído en cualquier momento; sin embargo, ocupa mucho espacio. 
-            td Generalmente se necesita de internet, aunque algunos libros se pueden descargar. Una ventaja es que se pueden llevar muchos ejemplares en un pequeño dispositivo.  
-            td Los dos necesitan de un recurso físico para ser leídos. 
-    AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")
-      .row(titulo="Ebook - Libro en formato electrónico").px-4
-        figure.mb-4
-          img(src="@/assets/template/tema-3-3.png", alt="Texto que describa la imagen")
-        p.mb-3 El ebook, o libro en formato digital o electrónico, está diseñado para poder ser leído en cualquier dispositivo electrónico y tiene muchas similitudes con un libro impreso; sin embargo, las publicaciones en medios digitales presentan las siguientes ventajas frente a las impresas:
-        .row
-          .col-sm.mb-5.mb-sm-0
-            ul.lista-ul
-              li.mb-0.d-block
-                .row
-                  .col-1.text-align-right.p-0
-                    i.fas.fa-angle-right.color-c.text-center
-                  .col-11
-                    p.mb-2 Se pueden tener un gran número de libros o revistas en un solo dispositivo, sin el peso físico de los impresos. 
-              li.mb-0.d-block
-                .row
-                  .col-1.text-align-right.p-0
-                    i.fas.fa-angle-right.color-c.text-center
-                  .col-11
-                    p.mb-2 Sus contenidos son ligeros, breves y fluidos para una mejor experiencia. 
-              li.mb-0.d-block
-                .row
-                  .col-1.text-align-right.p-0
-                    i.fas.fa-angle-right.color-c.text-center
-                  .col-11
-                    p.mb-2 Su distribución es de manera global e inmediata. 
-              li.mb-0.d-block
-                .row
-                  .col-1.text-align-right.p-0
-                    i.fas.fa-angle-right.color-c.text-center
-                  .col-11
-                    p.mb-2 Se puede decir que son publicaciones que aportan al medio ambiente, depende del uso responsable de los aparatos, su vida útil y el reciclaje de los componentes.
-              li.mb-0.d-block
-                .row
-                  .col-1.text-align-right.p-0
-                    i.fas.fa-angle-right.color-c.text-center
-                  .col-11
-                    p.mb-2 Se pueden portar en diversos dispositivos, multipropósito.
-              li.mb-0.d-block
-                .row
-                  .col-1.text-align-right.p-0
-                    i.fas.fa-angle-right.color-c.text-center
-                  .col-11
-                    p.mb-2 El usuario puede hacer modificaciones convenientes para su uso, como el tamaño y tipos de la letra, que quiera manejar.
-              li.mb-0.d-block
-                .row
-                  .col-1.text-align-right.p-0
-                    i.fas.fa-angle-right.color-c.text-center
-                  .col-11
-                    p.mb-2 No necesita de una fuente de luz ya que la tableta o artefacto tecnológico, posee su propia fuente de luz y se puede calibrar el brillo e intensidad.
-              li.mb-0.d-block
-                .row
-                  .col-1.text-align-right.p-0
-                    i.fas.fa-angle-right.color-c.text-center
-                  .col-11
-                    p.mb-2 Se permite realizar acciones en la misma pantalla, como tomar apuntes o pies de página. 
-              li.mb-0.d-block
-                .row
-                  .col-1.text-align-right.p-0
-                    i.fas.fa-angle-right.color-c.text-center
-                  .col-11
-                    p.mb-2 De igual manera que los libros impresos, este tipo de publicaciones cuentan con derechos de autor y de uso, dentro de los cuales principalmente se encuentran la prohibición en la reproducción impresa y la reproducción a usuarios o dispositivos no autorizados.
-              li.mb-0.d-block
-                .row
-                  .col-1.text-align-right.p-0
-                    i.fas.fa-angle-right.color-c.text-center
-                  .col-11
-                    p.mb-2 Se puede pasar de contenido o detallar información, tocando la pantalla o algún botón de conexión con un enlace.
-              li.mb-0.d-block
-                .row
-                  .col-1.text-align-right.p-0
-                    i.fas.fa-angle-right.color-c.text-center
-                  .col-11
-                    p.mb-2 Las características propias de este tipo de elementos permiten la posibilidad de insertar videos, sonidos, imágenes, animaciones, gráficos y demás, utilizando formatos determinados para cada uso. 
-              li.mb-0.d-block
-                .row
-                  .col-1.text-align-right.p-0
-                    i.fas.fa-angle-right.color-c.text-center
-                  .col-11
-                    p.mb-2 Por sus características básicas los ebooks son libros que facilitan el conocimiento universal, ya que pueden llegar de manera inmediata, fácil y práctica, a cualquier entorno, comunidad rural o población limitada, por ejemplo, por las condiciones geográficas.
-              li.mb-0.d-block
-                .row
-                  .col-1.text-align-right.p-0
-                    i.fas.fa-angle-right.color-c.text-center
-                  .col-11
-                    p.mb-2 Una ventaja frente a las obras impresas es la facilidad de editar, cambiar o añadir contenido al libro en cualquier momento, lo cual supone costos de ahorro.
-      div(titulo="E-Magazine - Revista electrónica")
-        figure.mb-4
-          img(src="@/assets/template/tema-3-4.png", alt="Texto que describa la imagen")
-        p.mb-3 La revista electrónica utiliza recursos multimedia y presenta las mismas características de la revista tradicional. Se distribuye en el mercado con un periodo regular, contiene una portada, contraportada, parte editorial, índice, fotos, textos, artículos, anuncios, publicidad, ilustraciones, etc. Este tipo de publicación puede ser presentada en diferentes formatos como el PDF, HTML, epub, entre otros. Una revista puede ser: 
-        .row
-          .col-sm.mb-5.mb-sm-0
-            ul.lista-ul
-              li.mb-0.d-block
-                .row
-                  .col-1.text-align-right.p-0
-                    i.fas.fa-angle-right.color-c.text-center
-                  .col-11
-                    p.mb-2 Una ventaja sobre otros medios, las imágenes, fotografías e ilustraciones, pueden contar con una mayor calidad gráfica para el usuario.
-              li.mb-0.d-block
-                .row
-                  .col-1.text-align-right.p-0
-                    i.fas.fa-angle-right.color-c.text-center
-                  .col-11
-                    p.mb-2 Una ventaja competitiva frente a las publicaciones tradicionales es la posibilidad de utilizar grandes bibliotecas de imágenes, recursos preestablecidos y la conexión e interacción con archivos de imágenes, bibliotecas y páginas con información gráfica.
-              li.mb-0.d-block
-                .row
-                  .col-1.text-align-right.p-0
-                    i.fas.fa-angle-right.color-c.text-center
-                  .col-11
-                    p.mb-2 Diversa y versátil en los formatos; el lector puede observar el contenido y posteriormente, imprimirlos.
-              li.mb-0.d-block
-                .row
-                  .col-1.text-align-right.p-0
-                    i.fas.fa-angle-right.color-c.text-center
-                  .col-11
-                    p.mb-2 De fácil acceso, ya que no es necesario la suscripción permanente. En la red se pueden adquirir números sueltos, o fragmentos de colecciones. 
-              li.mb-0.d-block
-                .row
-                  .col-1.text-align-right.p-0
-                    i.fas.fa-angle-right.color-c.text-center
-                  .col-11
-                    p.mb-2 De actualización permanente; por medio de los servicios de alerta, el lector accede de inmediato a actualizaciones, cambios o adiciones que se pueden presentar en cualquier publicación digital.
-      div(titulo="Presentaciones digitales")
-        figure.mb-4
-          img(src="@/assets/template/tema-3-5.png", alt="Texto que describa la imagen")
-        p.mb-4 Las presentaciones digitales son productos multimedia, realizados en computador, que contienen diapositivas (slide) con información relevante de un tema en particular.
-        p.mb-4 Casi siempre una presentación es un documento en el cual se debe incluir mucha información; por este motivo, es preciso definir la información más relevante a presentar, la cual debe ser clara y concisa, utilizando la menor cantidad de textos, e integrando otros recursos como imágenes, fotografías, esquemas, videos, entre otros.
-        p.mb-4 La presentación se ayuda de una guía o índice para seguir un orden estipulado, el cual requiere de un trabajo previo de investigación, en donde todos los datos deben ser concretos, claros y verídicos, ya que por lo general su desarrollo se enmarca especialmente en el área laboral y académica. Un ejemplo son las presentaciones que se realizan para una exposición, utilizando el programa PowerPoint. 
-        p.mb-4 Un elemento clave en el desarrollo de las presentaciones es la parte visual, fotografías, imágenes y videos que permiten complementar el contenido y motivan al espectador frente al tema que se está desarrollando; la comunicación multimedia ayuda a la organización de todos los componentes que conforman la presentación para facilitar su navegación y posterior divulgación, la integración de sonido conecta al participante con el contexto general de la misma. 
-      div(titulo="Catálogos")
-        figure.mb-4
-          img(src="@/assets/template/tema-3-6.png", alt="Texto que describa la imagen")
-        p.mb-4 El catálogo es una pieza netamente comercial que utilizan las empresas para dar a conocer sus productos, bienes o servicios y con ello generar ventas. Esta pieza depende de la calidad de la imagen ya que los productos mostrados no se pueden medir, probar o tocar, solo se pueden mirar.  Los catálogos de ventas electrónicos son elementos de marketing directo muy utilizados, pues ahorran a las empresas millones de pesos en publicidad y ayudan con el cuidado del medio ambiente.
-        p.mb-3 Las características principales para que esta pieza gráfica funcione de manera eficaz y adecuada son:
-        .row
-          .col-sm.mb-5.mb-sm-0
-            ul.lista-ul
-              li.mb-0.d-block
-                .row
-                  .col-1.text-align-right.p-0
-                    i.fas.fa-angle-right.color-c.text-center
-                  .col-11
-                    p.mb-2 La practicidad: un catálogo debe ser práctico, con poco texto y muchas imágenes de alta calidad que sean llamativas para que el usuario pueda observar, comparar y decidir su compra.
-              li.mb-0.d-block
-                .row
-                  .col-1.text-align-right.p-0
-                    i.fas.fa-angle-right.color-c.text-center
-                  .col-11
-                    p.mb-2 Debe incluir una breve descripción de los productos, bienes o servicios que se ofertan, tiempos de entrega, promociones, cambios, devoluciones y garantías. 
-              li.mb-0.d-block
-                .row
-                  .col-1.text-align-right.p-0
-                    i.fas.fa-angle-right.color-c.text-center
-                  .col-11
-                    p.mb-2 El catálogo debe tener un diferencial, ya que hoy en día existen muchas empresas que compiten por este mercado. 
-              li.mb-0.d-block
-                .row
-                  .col-1.text-align-right.p-0
-                    i.fas.fa-angle-right.color-c.text-center
-                  .col-11
-                    p.mb-2 El catálogo digital puede tener una extensión mayor a la versión física, debido a las ventajas que ofrecen los dispositivos de salida. 
-              li.mb-0.d-block
-                .row
-                  .col-1.text-align-right.p-0
-                    i.fas.fa-angle-right.color-c.text-center
-                  .col-11
-                    p.mb-2 Este tipo de formatos pueden incrementar el tráfico de cualquier sitio web, por sus facilidades de conexión, interactividad, pago y experiencia.
-      div(titulo="E-card") 
-        figure.mb-4
-          img(src="@/assets/template/tema-3-7.png", alt="Texto que describa la imagen")
-        p.mb-4 Ecard, o tarjeta virtual, hace referencia a una pieza gráfica principalmente utilizada hoy en día por grandes empresas de redes sociales dentro de sus contenidos; es un formato actual, estructurado y llamativo para el usuario, que se distribuye y consume de manera rápida.
-        p.mb-3 La eficiencia de los diseños en la web, incluyen las siguientes características:
-        .row
-          .col-sm.mb-5.mb-sm-0
-            ul.lista-ul
-              li.mb-0.d-block
-                .row
-                  .col-1.text-align-right.p-0
-                    i.fas.fa-angle-right.color-c.text-center
-                  .col-11
-                    p.mb-2 Las tarjetas se pueden dar la vuelta para mostrar aún más contenido.
-              li.mb-0.d-block
-                .row
-                  .col-1.text-align-right.p-0
-                    i.fas.fa-angle-right.color-c.text-center
-                  .col-11
-                    p.mb-2 Se pueden doblar para resumir y desdoblar para desarrollar la información.
-              li.mb-0.d-block
-                .row
-                  .col-1.text-align-right.p-0
-                    i.fas.fa-angle-right.color-c.text-center
-                  .col-11
-                    p.mb-2 Al apilarlas se ahorra espacio; se pueden agrupar y/o desplegar para ser utilizadas en el momento en el que sean requeridas.
-    p.mb-4 La funcionalidad de este tipo de diseño es limitada. Por tanto, no es una buena idea para la promoción y/o venta de un amplio catálogo de productos, por ejemplo. Sin embargo, representa una forma actualizada a las necesidades del usuario en línea y su tendencia al uso de dispositivos móviles. 
-    p.mb-4 Se puede aprovechar su uso, si el contenido a promocionar cuenta con alguna(s) de las siguientes características:
-    .row.mb-4
-      .col-sm.mb-5.mb-sm-0
-        ul.lista-ul
-          li.mb-0.d-block
+            td.p-5 
+              td__imagen.mb-5
+                figure
+                  img(src='@/assets/curso/img80.jpg', alt='Texto que describa la imagen')
+              td__texto.p-5
+                p Se denominan colores luz, dentro de la teoría aditiva, la combinación de los colores primarios rojo (red), verde (green) y azul (blue) da como resultado la luz blanca. Esto resulta fácilmente demostrable con un cuarto oscuro, tres linternas y filtros de colores. Sobre una pared blanca las linternas iluminan separadamente según el color del filtro, pero al enfocar un punto común, el color resultante tiende a blanco.
+                  br
+                  br
+                  |La aplicación por excelencia del modo RGB son las publicaciones digitales, multimedia y sitios web.
+                  br
+                  br
+                  |Un dato curioso, al mezclar las luces en parejas, se obtienen los valores: amarillo, cyan y magenta, propios del modo CMYK (el negro es la ausencia de luz). 
+              td__contenedor.d-flex.align-items-end
+                  img(src='@/assets/curso/img81.svg', alt='Texto que describa la imagen' style='width: 149px')
+                  p 
+                    b RGB: 
+                    |sigla en inglés de Red, Green, Blue, en español rojo, verde y azul. 
+            td.p-5 
+              td__imagen.mb-5
+                figure
+                  img(src='@/assets/curso/img82.jpg', alt='Texto que describa la imagen')
+              td__texto.p-5
+                p El modelo de cuatricromía o de colores pigmento. Un ejemplo evocativo puede remitirnos al juego con plastilina cuando éramos niños. Al mezclar masas de todos los colores se obtenía algo poco atractivo que variaba del café al púrpura. En el modo CMYK los pigmentos cyan, magenta, amarillo y negro se unen para conformar otros colores y la combinación de los tres primeros tiene como resultado un negro de baja pureza.
+                  br
+                  br
+                  |Dos datos curiosos sobre el modo CMYK, el color magenta no existe como tal, se crea al mezclar las frecuencias de onda de ambos extremos del espectro visible; si se mezclan las parejas de color, se obtienen los valores tonales del modelo aditivo (Rivera, 1985). 
+              td__contenedor.d-flex.align-items-end
+                  img(src='@/assets/curso/img83.svg', alt='Texto que describa la imagen' style='width: 149px')
+                  p 
+                    b CMYK: 
+                    | siglas de Cyan, Magenta, Yellow Y Key, español cián, magenta, amarillo y negro. 
+    #t_3_3.titulo-segundo
+      h2 3.3 Psicología y armonías de color
+    //- TABS DE COLORES 
+    .row.mb-5  
+      .col-lg-1
+        .recuadro-vertical.color--rosa.p-1.justify-content-center.align-items-center
+          h2.my-auto Rosa 
+      .col-lg-11
+        TabsC.color--rosa__tab.mb-5
+          .py-3.py-md-4(titulo="Significado")
             .row
-              .col-1.text-align-right.p-0
-                i.fas.fa-angle-right.color-c.text-center
-              .col-11
-                p.mb-2 Si es una especie de colección que cuenta con diversos contenidos multimedia.
-          li.mb-0.d-block
+              .col-md-4
+                figure
+                  img(src='@/assets/curso/img84.jpg', alt='Texto que describa la imagen')
+              .col-md-6.mb-4.mb-md-0
+                ul.lista-ul
+                  li 
+                    i.fas.fa-angle-right
+                    | Delicadeza, feminidad, amabilidad.
+
+                  li 
+                    i.fas.fa-angle-right
+                    | Frivolidad, inocencia y alegría juvenil.
+
+                  li 
+                    i.fas.fa-angle-right
+                    | Sensuales y voluptuosas.
+
+                  li 
+                    i.fas.fa-angle-right
+                    | Pueden ser empalagosos e irritantes.
+ 
+                  li 
+                    i.fas.fa-angle-right
+                    | Divertido y excitante, llamativo, sensacional, excesivamente intenso y loco.
+    .row.mb-5 
+      .col-lg-1
+        .recuadro-vertical.color--rojo.p-1.justify-content-center.align-items-center
+          h2.my-auto.text-white Rojo 
+      .col-lg-11
+        TabsC.color--rojo__tab.mb-5
+          .py-3.py-md-4(titulo="Significado")
             .row
-              .col-1.text-align-right.p-0
-                i.fas.fa-angle-right.color-c.text-center
-              .col-11
-                p.mb-2 Si soporta contenido de amplitud variable e interacción en línea, como una sección de comentarios o botones de enlace hacia redes sociales.
-          li.mb-0.d-block
+              .col-md-4
+                figure
+                  img(src='@/assets/curso/img85.jpg', alt='Texto que describa la imagen')
+              .col-md-6.mb-4.mb-md-0
+                ul.lista-ul
+                  li 
+                    i.fas.fa-angle-right
+                    | Amor, alegría, pasión y fuerza.
+
+                  li 
+                    i.fas.fa-angle-right
+                    | Fuego y calor.
+
+                  li 
+                    i.fas.fa-angle-right
+                    | Corazón, la carne y la emoción, también fuerza.
+                  li 
+                    i.fas.fa-angle-right
+                    | Sangre, coraje, lujuria, rabia, pasión y crimen.
+                  li 
+                    i.fas.fa-angle-right
+                    | El color de la aristocracia, la nobleza y rango.
+                  li 
+                    i.fas.fa-angle-right
+                    | Actividad, impulso, acción.
+          .py-3.py-md-4(titulo="Connotaciones positivas")
             .row
-              .col-1.text-align-right.p-0
-                i.fas.fa-angle-right.color-c.text-center
-              .col-11
-                p.mb-2 Si el contenido condensa información clave junto con imágenes de alta resolución para hacer la navegación más dinámica y fluida.
-    p.mb-4 Al igual que el consumidor promedio, el usuario de un sitio web no pretende únicamente encontrarse con opciones de productos, sino que, de manera inconsciente, busca involucrarse emocionalmente con estos. Entonces, englobando esto, en un concepto simple y de gran utilidad en la web, se puede decir que las emociones se comparten para que los productos sean consumidos.
-    p.mb-5 Siendo así, las tarjetas representan un excelente vínculo de interacción entre el usuario y el sitio web; desde su práctico diseño rectangular, hasta su portabilidad y fácil distribución, el diseño web de tarjetas es sin duda un estilo vanguardista y de gran utilidad informativa #[strong (Puente, 2015).]
-    .h4.mb-4 Formatos
-    p.mb-5 Existen diversos formatos en el uso y compresión de imágenes, estos son los más utilizados en la industria: 
-    SlyderB.mb-5(:datos="datosSlyder")
+              .col-md-4
+                figure
+                  img(src='@/assets/curso/img86.jpg', alt='Texto que describa la imagen')
+              .col-md-6.mb-4.mb-md-0
+                ul.lista-ul
+                  li 
+                    i.fas.fa-angle-right
+                    | Movimiento y la vitalidad.
+                  li 
+                    i.fas.fa-angle-right
+                    | Caliente, dinámico, animado, estimulante y brillante.
+                  li 
+                    i.fas.fa-angle-right
+                    | Calorífico y penetrante, provocativo y excitante.
+                  li 
+                    i.fas.fa-angle-right
+                    | Radiante no puede ser opacado por otro.
+                  li 
+                    i.fas.fa-angle-right
+                    | Vital.
+                  li 
+                    i.fas.fa-angle-right
+                    | Capta la atención ejerce impacto.
+                  li 
+                    i.fas.fa-angle-right
+                    | Es un color emotivo.
+                  li 
+                    i.fas.fa-angle-right
+                    | Utilizado en señales de peligro, riesgo, advertencia y temor.
+                  li 
+                    i.fas.fa-angle-right
+                    | Símbolo de la revolución.
+          .py-3.py-md-4(titulo="Connotaciones Negativas")
+            .row
+              .col-md-4
+                figure
+                  img(src='@/assets/curso/img87.jpg', alt='Texto que describa la imagen')
+              .col-md-6.mb-4.mb-md-0
+                ul.lista-ul
+                  li 
+                    i.fas.fa-angle-right
+                    | Disputa, desconfianza, feminidad, amabilidad. 
+                  li 
+                    i.fas.fa-angle-right
+                    | Crueldad y rabia.
+
+                  li 
+                    i.fas.fa-angle-right
+                    | Pasión, crimen, lujuria.
+
+                  li 
+                    i.fas.fa-angle-right
+                    | En gran cantidad puede 
+    .row.mb-5 
+      .col-lg-1
+        .recuadro-vertical.color--naranja.p-1.justify-content-center.align-items-center
+          h2.my-auto Naranja 
+      .col-lg-11
+        TabsC.color--naranja__tab.mb-5
+          .py-3.py-md-4(titulo="Significado")
+            .row
+              .col-md-4
+                figure
+                  img(src='@/assets/curso/img88.jpg', alt='Texto que describa la imagen')
+              .col-md-6.mb-4.mb-md-0
+                ul.lista-ul
+                  li 
+                    i.fas.fa-angle-right
+                    | La incandescencia y el calor.
+                  li 
+                    i.fas.fa-angle-right
+                    | El fuego y las llamas.
+                  li 
+                    i.fas.fa-angle-right
+                    | La puerta del sol.
+                  li 
+                    i.fas.fa-angle-right
+                    | Los colores del otoño y la cosecha.
+          .py-3.py-md-4(titulo="Connotaciones positivas")
+            .row
+              .col-md-4
+                figure
+                  img(src='@/assets/curso/img89.jpg', alt='Texto que describa la imagen')
+              .col-md-6.mb-4.mb-md-0
+                ul.lista-ul
+                  li 
+                    i.fas.fa-angle-right
+                    | Ardiente, estimulante brillante.
+                  li 
+                    i.fas.fa-angle-right
+                    | Emotivo. 
+                  li 
+                    i.fas.fa-angle-right
+                    | Ostentoso.
+                  li 
+                    i.fas.fa-angle-right
+                    | Animado expansivo, rico, extrovertido.
+                  li 
+                    i.fas.fa-angle-right
+                    | Exótico. 
+                  li 
+                    i.fas.fa-angle-right
+                    | Color provocativo, erótico, excitante.
+          .py-3.py-md-4(titulo="Connotaciones Negativas")
+            .row
+              .col-md-4
+                figure
+                  img(src='@/assets/curso/img90.jpg', alt='Texto que describa la imagen')
+              .col-md-6.mb-4.mb-md-0
+                ul.lista-ul
+                  li 
+                    i.fas.fa-angle-right
+                    | Bullanguero y vulgar.
+                  li 
+                    i.fas.fa-angle-right
+                    | Sobreestimulante, atrevido, puede crear una impresión agresiva.
+    .row.mb-5 
+      .col-lg-1
+        .recuadro-vertical.color--amarillo.p-1.justify-content-center.align-items-center
+          h2.my-auto Amarillo 
+      .col-lg-11
+        TabsC.color--amarillo__tab.mb-5
+          .py-3.py-md-4(titulo="Significado")
+            .row
+              .col-md-4
+                figure
+                  img(src='@/assets/curso/img91.jpg', alt='Texto que describa la imagen')
+              .col-md-6.mb-4.mb-md-0
+                ul.lista-ul
+                  li 
+                    i.fas.fa-angle-right
+                    | La luz.
+                  li 
+                    i.fas.fa-angle-right
+                    p.mb-0
+                      b El sol:   
+                      |dador de vida.
+                  li 
+                    i.fas.fa-angle-right
+                    p.mb-0
+                      b El oro:  
+                      |patrón de la riqueza.
+                  li 
+                    i.fas.fa-angle-right
+                    p.mb-0
+                      b La vida: 
+                      |la acción.
+                  li 
+                    i.fas.fa-angle-right
+                    p.mb-0
+                      b El poder:   
+                      | la verdad.
+          .py-3.py-md-4(titulo="Connotaciones positivas")
+            .row
+              .col-md-4
+                figure
+                  img(src='@/assets/curso/img92.jpg', alt='Texto que describa la imagen')
+              .col-md-6.mb-4.mb-md-0
+                ul.lista-ul
+                  li 
+                    i.fas.fa-angle-right
+                    |  Simboliza la inteligencia e intelectualidad.
+                  li 
+                    i.fas.fa-angle-right
+                    | Ciencia, conocimiento, compresión.
+                  li 
+                    i.fas.fa-angle-right
+                    | Fuerza, potencia, arrogancia.
+                  li 
+                    i.fas.fa-angle-right
+                    | Voluntad, estimulo y buen humor.
+                  li 
+                    i.fas.fa-angle-right
+                    | Alegría: es un color muy claro y alegre.
+                  li 
+                    i.fas.fa-angle-right
+                    | Espiritual y dinámico.
+                  li 
+                    i.fas.fa-angle-right
+                    | Estimulante para vista y los nervios.
+                  li 
+                    i.fas.fa-angle-right
+                    | Felicidad, alegría, niñez.
+          .py-3.py-md-4(titulo="Connotaciones Negativas")
+            .row
+              .col-md-4
+                figure
+                  img(src='@/assets/curso/img93.jpg', alt='Texto que describa la imagen')
+              .col-md-6.mb-4.mb-md-0
+                ul.lista-ul
+                  li 
+                    i.fas.fa-angle-right
+                    | Hostilidad y traición.
+                  li 
+                    i.fas.fa-angle-right
+                    | Cobardía.
+                  li 
+                    i.fas.fa-angle-right
+                    | Sensacionalismo.
+                  li 
+                    i.fas.fa-angle-right
+                    | Señal de enfermedad y cuarentena.
+                  li 
+                    i.fas.fa-angle-right
+                    | Señal de peligro (riesgo, advertencia).
+    .row.mb-5 
+      .col-lg-1
+        .recuadro-vertical.color--dorado.p-1.justify-content-center.align-items-center
+          h2.my-auto Dorado
+      .col-lg-11
+        TabsC.color--dorado__tab.mb-5
+          .py-3.py-md-4(titulo="Significado")
+            .row
+              .col-md-4
+                figure
+                  img(src='@/assets/curso/img94.jpg', alt='Texto que describa la imagen')
+              .col-md-6.mb-4.mb-md-0
+                ul.lista-ul
+                  li 
+                    i.fas.fa-angle-right
+                    | Luz divina.
+                  li 
+                    i.fas.fa-angle-right
+                    | Símbolo de la salvación.
+          .py-3.py-md-4(titulo="Connotaciones positivas")
+            .row
+              .col-md-4
+                figure
+                  img(src='@/assets/curso/img95.jpg', alt='Texto que describa la imagen')
+              .col-md-6.mb-4.mb-md-0
+                ul.lista-ul
+                  li 
+                    i.fas.fa-angle-right
+                    | Riqueza y opulencia, dinero.
+                  li 
+                    i.fas.fa-angle-right
+                    | Valor de los objetos.
+                  li 
+                    i.fas.fa-angle-right
+                    | Gran cantidad de calidad y sofisticación.
+                  li 
+                    i.fas.fa-angle-right
+                    | Elegancia.
+                  li 
+                    i.fas.fa-angle-right
+                    | Ideal para productos de perfiles selectos.
+    .row.mb-5 
+      .col-lg-1
+        .recuadro-vertical.color--marron.p-1.justify-content-center.align-items-center
+          h2.my-auto.text-white Marrón
+      .col-lg-11
+        TabsC.color--marron__tab.mb-5
+          .py-3.py-md-4(titulo="Significado")
+            .row
+              .col-md-4
+                figure
+                  img(src='@/assets/curso/img96.jpg', alt='Texto que describa la imagen')
+              .col-md-6.mb-4.mb-md-0
+                ul.lista-ul
+                  li 
+                    i.fas.fa-angle-right
+                    | El propio de la tierra.
+          .py-3.py-md-4(titulo="Connotaciones positivas")
+            .row
+              .col-md-4
+                figure
+                  img(src='@/assets/curso/img97.jpg', alt='Texto que describa la imagen')
+              .col-md-6.mb-4.mb-md-0
+                ul.lista-ul
+                  li 
+                    i.fas.fa-angle-right
+                    | Madurez.
+                  li 
+                    i.fas.fa-angle-right
+                    | Calidez y alegría.
+                  li 
+                    i.fas.fa-angle-right
+                    | Color neutral cálido.
+                  li 
+                    i.fas.fa-angle-right
+                    | Tierra, nobleza. 
+                  li 
+                    i.fas.fa-angle-right
+                    | Confort y seguridad.
+                  li 
+                    i.fas.fa-angle-right
+                    | Evoca sensaciones gustativas (café chocolate).
+                  li 
+                    i.fas.fa-angle-right
+                    | Simboliza los aspectos naturales, orgánicos y de los productos.
+                  li 
+                    i.fas.fa-angle-right
+                    | Tradición y nostalgia.
+                  li 
+                    i.fas.fa-angle-right
+                    | Productos antiguos.
+                  li 
+                    i.fas.fa-angle-right
+                    | Color masculino. 
+    .row.mb-5 
+      .col-lg-1
+        .recuadro-vertical.color--verde.p-1.justify-content-center.align-items-center
+          h2.my-auto.text-white Verde
+      .col-lg-11
+        TabsC.color--verde__tab.mb-5
+          .py-3.py-md-4(titulo="Significado")
+            .row
+              .col-md-4
+                figure
+                  img(src='@/assets/curso/img98.jpg', alt='Texto que describa la imagen')
+              .col-md-6.mb-4.mb-md-0
+                ul.lista-ul
+                  li 
+                    i.fas.fa-angle-right
+                    | Naturaleza y el verdor.
+                  li 
+                    i.fas.fa-angle-right
+                    | Vida, renacimiento de la primavera, naturaleza.
+                  li 
+                    i.fas.fa-angle-right
+                    | Simboliza la esperanza, la fe y la regeneración.
+
+          .py-3.py-md-4(titulo="Connotaciones positivas")
+            .row
+              .col-md-4
+                figure
+                  img(src='@/assets/curso/img99.jpg', alt='Texto que describa la imagen')
+              .col-md-6.mb-4.mb-md-0
+                ul.lista-ul
+                  li 
+                    i.fas.fa-angle-right
+                    | Primavera, juventud, naturaleza, sugiere aire libre y frescor.
+                  li 
+                    i.fas.fa-angle-right
+                    | Libera el espíritu y equilibrar las sensaciones.
+                  li 
+                    i.fas.fa-angle-right
+                    | Tranquilidad y esperanza.
+                  li 
+                    i.fas.fa-angle-right
+                    | Sedante, hipnótico y reposante.
+                  li 
+                    i.fas.fa-angle-right
+                    | Calma, quietud, frescura y paciencia.
+                  li 
+                    i.fas.fa-angle-right
+                    | Estabilidad, seguridad: esto deriva de su facilidad de percepción.
+                  li 
+                    i.fas.fa-angle-right
+                    | Lozanía de la juventud.
+                  li 
+                    i.fas.fa-angle-right
+                    | Camuflaje (uniforme de los soldados).
+                  li 
+                    i.fas.fa-angle-right
+                    | Fertilidad, realidad, razón y la lógica.
+          .py-3.py-md-4(titulo="Connotaciones Negativas")
+            .row
+              .col-md-4
+                figure
+                  img(src='@/assets/curso/img100.jpg', alt='Texto que describa la imagen')
+              .col-md-6.mb-4.mb-md-0
+                ul.lista-ul
+                  li 
+                    i.fas.fa-angle-right
+                    | Es el color de la vida, y de la decadencia (el moho la podredumbre y la corrosión).
+                  li 
+                    i.fas.fa-angle-right
+                    | Tiene características imaginarias (monstruos de la ciencia ficción)
+    .row.mb-5 
+      .col-lg-1
+        .recuadro-vertical.color--azul2.p-1.justify-content-center.align-items-center
+          h2.my-auto.text-white Azul
+      .col-lg-11
+        TabsC.color--azul2__tab.mb-5
+          .py-3.py-md-4(titulo="Significado")
+            .row
+              .col-md-4
+                figure
+                  img(src='@/assets/curso/img101.jpg', alt='Texto que describa la imagen')
+              .col-md-6.mb-4.mb-md-0
+                ul.lista-ul
+                  li 
+                    i.fas.fa-angle-right
+                    | Océano, cielos, e infinito.
+                  li 
+                    i.fas.fa-angle-right
+                    | Espiritualidad, inmortalidad fidelidad.
+                  li 
+                    i.fas.fa-angle-right
+                    | Fe y sabiduría.
+                  li 
+                    i.fas.fa-angle-right
+                    | Lasitud, descanso, recogimiento, juicio y seguridad.
+          .py-3.py-md-4(titulo="Connotaciones positivas")
+            .row
+              .col-md-4
+                figure
+                  img(src='@/assets/curso/img102.jpg', alt='Texto que describa la imagen')
+              .col-md-6.mb-4.mb-md-0
+                ul.lista-ul
+                  li 
+                    i.fas.fa-angle-right
+                    | Sombrío, tiende a la oscuridad.
+                  li 
+                    i.fas.fa-angle-right
+                    | Carácter noble.
+                  li 
+                    i.fas.fa-angle-right
+                    | Color frío, preciso, ordenado.
+                  li 
+                    i.fas.fa-angle-right
+                    | Melancolía y soledad.
+                  li 
+                    i.fas.fa-angle-right
+                    | Saludable.
+                  li 
+                    i.fas.fa-angle-right
+                    | Calmante.
+                  li 
+                    i.fas.fa-angle-right
+                    | Emociones profundas.
+          .py-3.py-md-4(titulo="Connotaciones Negativas")
+            .row
+              .col-md-4
+                figure
+                  img(src='@/assets/curso/img103.jpg', alt='Texto que describa la imagen')
+              .col-md-6.mb-4.mb-md-0
+                ul.lista-ul
+                  li 
+                    i.fas.fa-angle-right
+                    | Las connotaciones negativas son en realidad extensiones de sus aspectos positivos:
+                  li 
+                    i.fas.fa-angle-right
+                    | Frialdad e insensibilidad.
+                  li 
+                    i.fas.fa-angle-right
+                    | Soledad, aislamiento.
+                  li 
+                    i.fas.fa-angle-right
+                    | Tranquilidad, inercia, depresión y tristeza.
+                  li 
+                    i.fas.fa-angle-right
+                    | Desesperación, fanatismo e intolerancia.
+    .row.mb-5 
+      .col-lg-1
+        .recuadro-vertical.color--violeta.p-1.justify-content-center.align-items-center
+          h2.my-auto.text-white Violeta
+      .col-lg-11
+        TabsC.color--violeta__tab.mb-5
+          .py-3.py-md-4(titulo="Significado")
+            .row
+              .col-md-4
+                figure
+                  img(src='@/assets/curso/img104.jpg', alt='Texto que describa la imagen')
+              .col-md-6.mb-4.mb-md-0
+                ul.lista-ul
+                  li 
+                    i.fas.fa-angle-right
+                    | Realeza, dignidad, suntuosidad.
+                  li 
+                    i.fas.fa-angle-right
+                    | Alto rango de reyes y cardenales de la iglesia.
+                  li 
+                    i.fas.fa-angle-right
+                    | Se asocia con la pompa e inspira respeto.
+                  li 
+                    i.fas.fa-angle-right
+                    | Es el color de la dignidad, el duelo y la penitencia.
+          .py-3.py-md-4(titulo="Connotaciones positivas")
+            .row
+              .col-md-4
+                figure
+                  img(src='@/assets/curso/img105.jpg', alt='Texto que describa la imagen')
+              .col-md-6.mb-4.mb-md-0
+                ul.lista-ul
+                  li 
+                    i.fas.fa-angle-right
+                    | Profundidad, misticismo, misterio, melancolía.
+                  li 
+                    i.fas.fa-angle-right
+                    | Connota realeza y dignidad.
+                  li 
+                    i.fas.fa-angle-right
+                    | Fresco y sedante.
+                  li 
+                    i.fas.fa-angle-right
+                    | Intimidad, sentimientos profundos.
+                  li 
+                    i.fas.fa-angle-right
+                    | Experiencia.
+                  li 
+                    i.fas.fa-angle-right
+                    | Piedad, tristeza y melancolía.
+                  li 
+                    i.fas.fa-angle-right
+                    | Elegancia.
+          .py-3.py-md-4(titulo="Connotaciones Negativas")
+            .row
+              .col-md-4
+                figure
+                  img(src='@/assets/curso/img106.jpg', alt='Texto que describa la imagen')
+              .col-md-6.mb-4.mb-md-0
+                ul.lista-ul
+                  li 
+                    i.fas.fa-angle-right
+                    | Puede lucir opresivo, aterrador.
+                  li 
+                    i.fas.fa-angle-right
+                    | Misterio, superstición.
+                  li 
+                    i.fas.fa-angle-right
+                    | Difícil de mezclar. 
+                  li 
+                    i.fas.fa-angle-right
+                    | Produce y se relaciona con la tristeza y la aflicción.
+                  li 
+                    i.fas.fa-angle-right
+                    | Muerte y dolor.
+                  li 
+                    i.fas.fa-angle-right
+                    | Tiene connotación de la homosexualidad o afeminado.
+    .row.mb-5 
+      .col-lg-1
+        .recuadro-vertical.color--negro.p-1.justify-content-center.align-items-center
+          h2.my-auto.text-white Negro
+      .col-lg-11
+        TabsC.color--negro__tab.mb-5
+          .py-3.py-md-4(titulo="Significado")
+            .row
+              .col-md-4
+                figure
+                  img(src='@/assets/curso/img107.jpg', alt='Texto que describa la imagen')
+              .col-md-6.mb-4.mb-md-0
+                ul.lista-ul
+                  li 
+                    i.fas.fa-angle-right
+                    | La oscuridad, la noche, la muerte.
+                  li 
+                    i.fas.fa-angle-right
+                    | Las tinieblas y el misterio.
+                  li 
+                    i.fas.fa-angle-right
+                    | Lo oscuro, lo desconocido, la oscuridad absoluta.
+                  li 
+                    i.fas.fa-angle-right
+                    | Muerte y el duelo.
+          .py-3.py-md-4(titulo="Connotaciones positivas")
+            .row
+              .col-md-4
+                figure
+                  img(src='@/assets/curso/img108.jpg', alt='Texto que describa la imagen')
+              .col-md-6.mb-4.mb-md-0
+                ul.lista-ul
+                  li 
+                    i.fas.fa-angle-right
+                    | Sofisticado y elegante.
+                  li 
+                    i.fas.fa-angle-right
+                    | Rechazo a las sociedades y sus valores.
+                  li 
+                    i.fas.fa-angle-right
+                    | Responsabilidad y el decoro.
+          .py-3.py-md-4(titulo="Connotaciones Negativas")
+            .row
+              .col-md-4
+                figure
+                  img(src='@/assets/curso/img109.jpg', alt='Texto que describa la imagen')
+              .col-md-6.mb-4.mb-md-0
+                ul.lista-ul
+                  li 
+                    i.fas.fa-angle-right
+                    | Misterio.
+                  li 
+                    i.fas.fa-angle-right
+                    | Inspira tristeza, reposo, pena.
+                  li 
+                    i.fas.fa-angle-right
+                    | Combina el misterio con el poder que puede servir para el bien y el mal.
+    .row.mb-5 
+      .col-lg-1
+        .recuadro-vertical.color--gris.p-1.justify-content-center.align-items-center
+          h2.my-auto.text-white Gris
+      .col-lg-11
+        TabsC.color--gris__tab.mb-5
+          .py-3.py-md-4(titulo="Significado")
+            .row
+              .col-md-4
+                figure
+                  img(src='@/assets/curso/img110.jpg', alt='Texto que describa la imagen')
+              .col-md-6.mb-4.mb-md-0
+                ul.lista-ul
+                  li 
+                    i.fas.fa-angle-right
+                    | Resignación.
+
+                  li 
+                    i.fas.fa-angle-right
+                    | Mecánico y metálico de las grandes urbes; hormigón, cemento, maquinaria pesada, industria.
+
+                  li 
+                    i.fas.fa-angle-right
+                    | Guerra: aeroplanos, barcos, cañones.
+                  li 
+                    i.fas.fa-angle-right
+                    | Inteligencia (materia gris).
+                  li 
+                    i.fas.fa-angle-right
+                    | Confusión (ni blanco, ni negro: gris).
+                  li 
+                    i.fas.fa-angle-right
+                    | Gran armonizador, color neutralizador.
+    h4 Gran armonizador, color neutralizador.        
+    p.mb-5 La armonía en el color está dividida por secciones para evidenciar los aspectos de color y sus combinaciones que explican de manera visual el efecto que tienen los colores en todos los aspectos de la vida de las personas. Cada variación tonal refleja aspectos, cualidades que fueron identificados en los colores y las combinaciones, las cuales se usan para describir sus cualidades y propiedades, cómo combinarlos y contrastarlos. Al armonizar es posible que el conjunto o combinación armónica se asocie más a un concepto antiguo que a la belleza dinámica y moderna; para ello es útil el uso del círculo cromático (Salinas, 1994). 
+    h5 Tipo de armonías:
+    figure.mb-5 
+      img(src='@/assets/curso/img111.svg', alt='Texto que describa la imagen')
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -273,27 +804,16 @@
 export default {
   name: 'Tema3',
   data: () => ({
-    datosSlyder: [
-      {
-        titulo: 'JPG - Joint Photographic Experts Group',
-        texto:
-          'Es el formato más conocido y utilizado para la compresión de imágenes de alta calidad, como imágenes captadas por fotógrafos. Las imágenes que son constantemente editadas en su tamaño, van a tener una pérdida de calidad acumulativa. ',
-        imagen: require('@/assets/template/tema-3-8.png'),
-      },
-      {
-        titulo: 'GIF - Graphics Interchange Format',
-        texto:
-          'Este tipo de formato es muy utilizado en animaciones de poco peso. Son empleados por sus características principalmente en redes sociales, ya que comunican de manera rápida y asertiva diversos tipos de sentimientos. ',
-        imagen: require('@/assets/template/tema-3-9.png'),
-      },
-      {
-        titulo: 'PNG - Portable Network Graphics',
-        texto:
-          'Este tipo de formato permite el uso y manejo de transparencias, por lo cual es muy utilizado en internet.',
-        imagen: require('@/assets/template/tema-3-10.svg'),
-      },
-    ],
+    // variables de vue
   }),
+  mounted() {
+    this.$nextTick(() => {
+      this.$aosRefresh()
+    })
+  },
+  updated() {
+    this.$aosRefresh()
+  },
 }
 </script>
 

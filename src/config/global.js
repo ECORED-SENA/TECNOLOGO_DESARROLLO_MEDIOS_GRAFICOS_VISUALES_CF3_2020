@@ -1,9 +1,9 @@
 export default {
   global: {
-    componenteFormativo: 'Conceptualización y metodologías epub',
+    componenteFormativo: 'Comunicación visual',
     descripcionCurso:
-      'El diseño editorial no solo se enfoca en la creación de contenidos impresos, sino también digitales, que se adaptan para posibilitar la lectura en diversos dispositivos; por ello, es de gran utilidad comprender en qué consiste la diagramación, que dependerá de los diferentes tipos de productos.  El epub es uno de los formatos más utilizados para la publicación de libros electrónicos.',
-    imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
+      'La comunicación visual, como disciplina de las ciencias humanas y sociales unida a las vertientes tecnológicas y sociales, es considerada la vía para llegar al público de una manera directa, su atención se centra en las imágenes antes que las palabras, de allí «una imagen vale más que mil palabras». ',
+    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.svg'),
   },
   menuPrincipal: {
@@ -23,139 +23,128 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Evolución histórica del libro',
+        titulo: 'Definición y principios de comunicación visual',
         desarrolloContenidos: true,
-        subMenu: [],
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.1',
+            titulo: 'Funciones de la comunicación visual',
+            hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Imagen y sociedad',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'El mensaje visual y su descomposición',
+            hash: 't_1_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.4',
+            titulo: 'Análisis y percepción de la imagen',
+            hash: 't_1_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.5',
+            titulo: 'Semiótica, retórica y sintaxis de la imagen',
+            hash: 't_1_5',
+          },
+        ],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Tipología epub',
+        titulo: 'Propiedad intelectual y derechos de autor ',
         desarrolloContenidos: true,
-        subMenu: [],
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Copyright y propiedad intelectual',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Derechos de autor',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Ebooks, e-magazine, presentaciones, catálogos, e-card',
+        titulo: 'Teoría del color',
         desarrolloContenidos: true,
-        subMenu: [],
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo: 'Definición y fundamentos',
+            hash: 't_3_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo: 'Teoría aditiva y sustractiva',
+            hash: 't_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo: 'Psicología y armonías de color',
+            hash: 't_3_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Preproducción',
-        desarrolloContenidos: true,
-        subMenu: [],
-      },
-      {
-        nombreRuta: 'tema5',
-        icono: 'far fa-file-alt',
-        numero: '5',
-        titulo: 'Arquitectura de información, Card sorting',
+        titulo: 'Bocetación ',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
-            numero: '5.1',
-            titulo: 'Evaluación heurística o de usabilidad',
-            hash: 't_5_1',
+            numero: '4.1',
+            titulo: 'Definición y tipos',
+            hash: 't_4_1',
           },
           {
             icono: 'far fa-file-alt',
-            numero: '5.2',
-            titulo: 'Flujogramas',
-            hash: 't_5_2',
-          },
-        ],
-      },
-      {
-        nombreRuta: 'tema6',
-        icono: 'far fa-file-alt',
-        numero: '6',
-        titulo: 'Metodología en UX y UI',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '6.1',
-            titulo: 'Experiencia de usuario UX',
-            hash: 't_6_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '6.2',
-            titulo: 'Diseño UI',
-            hash: 't_6_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '6.3',
-            titulo: 'Investigación ',
-            hash: 't_6_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '6.4',
-            titulo: 'Organización y planificación de la información',
-            hash: 't_6_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '6.5',
-            titulo: 'Gestión de contenidos ',
-            hash: 't_6_5',
-          },
-        ],
-      },
-      {
-        nombreRuta: 'tema7',
-        icono: 'far fa-file-alt',
-        numero: '7',
-        titulo: 'Diagramación de la arquitectura de información ',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '7.1',
-            titulo: 'Diseño, guion y storyboard',
-            hash: 't_7_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '7.2',
-            titulo: 'Pruebas',
-            hash: 't_7_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '7.3',
-            titulo: 'Validación de prototipo',
-            hash: 't_7_3',
+            numero: '4.2',
+            titulo: 'Técnicas, la bitácora y recursos gráficos',
+            hash: 't_4_2',
           },
         ],
       },
     ],
     subMenu: [
-      /* {
-        nombreRuta: 'actividad',
-        icono: 'far fa-question-circle',
-        titulo: 'Actividad didáctica',
-        desarrolloContenidos: true,
-      }, */
+      // {
+      //   nombreRuta: 'actividad',
+      //   icono: 'far fa-question-circle',
+      //   titulo: 'Actividad didáctica',
+      //   desarrolloContenidos: true,
+      // },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
       },
-      {
-        nombreRuta: 'complementario',
-        icono: 'far fa-folder-open',
-        titulo: 'Material complementario',
-      },
+      // {
+      //   nombreRuta: 'complementario',
+      //   icono: 'far fa-folder-open',
+      //   titulo: 'Material complementario',
+      // },
       {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
@@ -173,160 +162,242 @@ export default {
       },
     ],
   },
-  creditos: {
-    liderEquipo: {
-      nombre: 'Guillermo Eduardo González Tarazona',
-      cargo: 'Instructor ',
-      centro: 'Centro para la Industria de la Comunicación Gráfica',
-      regional: 'Regional Distrito Capital.',
-    },
-    contenidoInstruccional: [
-      {
-        nombre: 'Dayra Maritza Paz Calderón',
-        cargo: 'Diseñadora y Evaluadora Instruccional ',
-        centro: 'Centro de Diseño y Metrología.',
-        regional: 'Regional Distrito Capital.',
-      },
-      {
-        nombre: 'Andrés Felipe Velandia Espitia',
-        cargo: 'Revisor Metodológico y Pedagógico ',
-        centro: 'Centro de Diseño y Metrología.',
-        regional: 'Regional Distrito Capital.',
-      },
-    ],
-    desarrolloProducto: [
-      {
-        nombre: 'Miroslava González Hernández',
-        cargo: 'Diseñador y evaluador instruccional',
-        centro: 'Centro Gestión Industrial.',
-        regional: 'Regional Distrito Capital.',
-      },
-    ],
-    gestoresRepositorio: [
-      {
-        nombre: 'Brayan Stiven Pinto Diaz',
-        cargo: ['Desarrollo front-end', 'Validación de recursos'],
-        centro: 'Centro de comercio y servicios',
-        regional: 'Regional Tolima',
-      },
-    ],
-  },
   referencias: [
     {
       referencia:
-        'Díaz. M. (2017, abril 21). UX y UI: Diferencias entre la experiencia y la interfaz de usuario. [Web log post]. FuegoYamana.',
+        'Congreso de la República de Colombia. (28 de enero de 1982). Ley Nº 23 de 1982. Sobre los derechos de autor.',
       link:
-        'https://www.fuegoyamana.com/blog/ux-y-ui-experiencia-interfaz-de-usuario/#:~:text=UX%20y%20UI%3A%20Diferencias%20entre%20la%20experiencia%20y%20la%20interfaz%20de%20usuario&text=Mientras%20que%20la%20interfaz%20de,sienten%20cuando%20miran%20dicho%20sitio.',
+        'http://propiedadintelectual.unal.edu.co/fileadmin/recursos/innovacion/docs/normatividad_pi/ley23_1982.pdf',
     },
     {
       referencia:
-        'Estrategia digital. (2017, marzo 23). Metodologías de trabajo para proyectos digitales. [Web log post]. Ida blog.',
-      link:
-        'https://blog.ida.cl/estrategia-digital/metodologias-de-trabajo-proyectos-digitales/',
-    },
-    {
-      referencia: 'Glosario gráfico. (s.f.). Postprensa. Glosariografico.com.',
-      link: 'http://www.glosariografico.com/postimpresion',
-    },
-    {
-      referencia: 'Glosario gráfico. (s.f.). Prepensa. Glosariografico.com',
-      link: 'http://www.glosariografico.com/preprensa',
+        'Díaz, C. (2019). Lenguaje visual, principios y caso de estudio Aena.  Social media PYMES. ',
+      link: 'http://www.socialmediapymes.com/lenguaje-visual/',
     },
     {
       referencia:
-        'Ingeniovirtual. (s.f). Las extensiones de archivos para formato eBook y sus características. ',
-      link:
-        'https://www.ingeniovirtual.com/extensiones-de-archivos-para-formato-ebook/',
+        'Dirección Nacional de Derechos de Autor. (s.f.). Preguntas frecuentes, en derechodeautor. ',
+      link: 'http://derechodeautor.gov.co:8080/preguntas-frecuentes',
     },
     {
       referencia:
-        'López, B. (2018). Evaluación heurística, la metodología más utilizada en UX para medir la usabilidad de una interfaz. Mtp, digital business assurance.',
+        'Dondis, D. (2017). La sintaxis de la imagen introducción al alfabeto visual.',
       link:
-        'https://www.mtp.es/blog/experiencia-de-usuario-blog/evaluacion-heuristica-la-usabilidad-una-interfaz',
+        'https://ggili.com.mx/media/catalog/product/9/7/9788425229299_inside.pdf',
     },
     {
       referencia:
-        'Puente, L. (2015). Cards: una de las últimas tendencias en diseño web. Netcommerce',
+        'Hurtado, M. (s.f.). Qué tipos de bocetos se utilizan en diseño gráfico. ',
       link:
-        'https://info.netcommerce.mx/cards-una-de-las-ultimas-tendencias-en-diseno-web',
+        'https://foroalfa.org/articulos/que-tipos-de-bocetos-se-utilizan-en-diseno-grafico',
+    },
+    {
+      referencia: 'Karam, T. (2006). Introducción a la semiótica de la imagen.',
+      link:
+        'https://incom.uab.cat/portalcom/wp-content/uploads/2020/01/23_esp.pdf ',
     },
     {
       referencia:
-        'Real Academia Española. (2020). Hipertexto. DEL. dle.rae.es.',
-      link: 'https://dle.rae.es/hipertexto',
-    },
-    {
-      referencia: 'Real Academia Española. (2021). Interfaz. DEL. dle.rae.es. ',
-      link: 'https://dle.rae.es/interfaz',
+        'La comisión del acuerdo de Cartagena. (17 de diciembre de 1993). Decisión 351 de 1993. Régimen común sobre derechos de autor y derechos conexos.',
+      link: 'http://derechodeautor.gov.co:8080/decision-andina',
     },
     {
       referencia:
-        'Sarraipa, J., Artíficie, A, Jiménez, H. (2019). Metodología de evaluación de prototipo innovador. ACACIA.',
+        'Machuca, L. (2011). Actas de diseño Nº11.Universidad de Palermo.',
       link:
-        'https://acacia.red/wp-content/uploads/2019/07/Gu%C3%ADa-Metodologi%CC%81a-de-evaluaci%C3%B3n-de-prototipo-innovador.pdf',
+        'https://fido.palermo.edu/servicios_dyc/publicacionesdc/vista/detalle_articulo.php?id_libro=339&id_articulo=7596',
     },
     {
       referencia:
-        'Sepulveda, E & Quiceno, C. (2015). Ebooks interactivos diseño y producción. Fondo Editorial Luis Amigó. ',
-      link:
-        'https://www.researchgate.net/figure/Figura-1-Fase-de-preproduccion-de-material-editorial-interactivo_fig1_311193442',
+        'Munari, B. (1985). Diseño y comunicación visual. Editorial GG.',
     },
     {
       referencia:
-        'Torresburriel. (2017). Card Sorting para mejorar la arquitectura de información de un producto digital.',
-      link:
-        'https://www.torresburriel.com/weblog/2017/12/15/card-sorting-para-mejorar-la-arquitectura-de-informacion-de-un-producto-digital/',
+        'Pozo, R. (2001). Glosario técnico de la industria gráfica. Presentación colección proyectos gráficos.',
+      link: 'https://issuu.com/graficsants/docs/glosario_industria_gr__fica',
     },
     {
       referencia:
-        'Zamora, L. (2016). La lectura hipermedial. Hacia un marco teórico. Marcoele.',
+        'Rivera, F. (1985). Teoría del color módulo 2. Servicio Nacional de Aprendizaje – SENA. Cenigraf. ',
+    },
+    {
+      referencia:
+        'Salinas, R. (1994). La armonía en el color nuevas tendencias. ',
       link:
-        'https://marcoele.com/lectura-hipermedial/#:~:text=El%20texto%20hipermedial%20se%20caracteriza,en%20definitiva%2C%20la%20comprensi%C3%B3n%20lectora.',
+        'https://politecnicometro.edu.co/biblioteca/produccionydg/La%20Armon%C3%ADa%20en%20el%20Color%20-%20Nuevas%20Tendencias%20%28Rosario%20Salinas%29.pdf',
+    },
+    {
+      referencia:
+        'Santos, D. (2012). Fundamentos de la comunicación. Red tercer milenio. ',
+      link:
+        'http://www.aliat.org.mx/BibliotecasDigitales/comunicacion/Fundamentos_de_comunicacion.pdf',
+    },
+    {
+      referencia:
+        'Superintendencia de Industria y Comercio. (2017). Reporte sobre la información en materia de propiedad intelectual en Colombia.',
+      link:
+        'https://www.sic.gov.co/sites/default/files/files/Proteccion_Competencia/Estudios_Economicos/Documentos_elaborados_Grupo_Estudios_Economicos/Reporte-informacion-en-materia-de-Propiedad-Intelectual-en-Colombia.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'Hipermedia',
+      termino: 'Boceto',
       significado:
-        'hace referencia a la convergencia de diversos medios (textos, imágenes, sonidos, videos), permitiendo estructurar la información de una manera no secuencial, a través de nodos interconectados por enlaces.',
+        'bosquejo para el diseñador y/o cliente que muestra la disposición de los elementos de un diseño.',
     },
     {
-      termino: 'Hipertexto',
+      termino: 'Color primario',
       significado:
-        'conjunto estructurado de textos, gráficos, etc., unidos entre sí por enlaces y conexiones lógicas (Real Academia Española, 2021, definición 1).',
+        'color base usado para componer otros colores. En impresión son el cyan, magenta y amarillo. ',
     },
     {
-      termino: 'Interfaz',
+      termino: 'Color secundario',
       significado:
-        'conexión o frontera común entre dos aparatos o sistemas independientes.Conexión, física o lógica, entre una computadora y el usuario, un dispositivo periférico o un enlace de comunicaciones (Real Academia Española, 2021, definición 1 y 2).',
+        'color obtenido por la mezcla de dos colores primarios. Si bien se les conoce como colorantes primarios, C, M, y Y son los colores secundarios de la luz. rojo + verde = amarillo.',
     },
     {
-      termino: 'Link ',
-      significado: 'Unión, enlace, eslabón. ',
+      termino: 'Línea ',
+      significado:
+        'sucesión de letras separadas por espacios que forman palabras. Trazo hecho con una regla recta y un tiralíneas.',
     },
     {
-      termino: 'Look and feel',
+      termino: 'Magenta',
       significado:
-        'Traducción de mirar y sentir, expresión utilizada en marketing.',
+        'el pigmento base utilizado en la selección de colores. También se llama rojo básico.',
     },
     {
-      termino: 'Marketing',
+      termino: 'Ojo ',
       significado:
-        'Técnicas que persiguen la selección de mercados objetivos, la identificación y cuantificación de las necesidades de esos mercados, el desarrollo de productos y servicios que satisfagan a los usuarios. ',
-    },
-    {
-      termino: 'Navegabilidad',
-      significado:
-        'Cualidad de navegable, hace referencia a la facilidad con la que el usuario se desplaza entre las páginas que conforman contenido web. ',
+        'el ojo del tipo es lo que se ve de la letra impresa. Es la altura y la anchura real de la letra, su perfil, el contraste de blanco y negro dentro y fuera de ella. Ojo, en el sistema de impresión tipográfica, es la parte que está en relieve y que deja huella en el papel (Pozo, 2001).',
     },
   ],
   complementario: [
     {
       texto:
-        'Ingeniovirtual. (s.f). Las extensiones de archivos para formato eBook y sus características. https://www.ingeniovirtual.com/extensiones-de-archivos-para-formato-ebook/',
-      tipo: 'Sitio web',
-      link:
-        'https://www.ingeniovirtual.com/extensiones-de-archivos-para-formato-ebook/',
+        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
+      tipo: 'Video',
+      link: 'https://www.google.com/',
+    },
+    {
+      texto:
+        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
+      tipo: 'Página web',
+      descarga: '/downloads/prueba.pdf',
+    },
+    {
+      texto:
+        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
+      tipo: 'Artículo científico',
+      link: 'https://www.google.com/',
+    },
+    {
+      texto: 'Economía de Rosquilla. (s.f.).',
+      tipo: 'Página web',
+      descarga: '/downloads/prueba.pdf',
+    },
+    {
+      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
+      tipo: 'Video',
+      link: 'https://www.google.com/',
     },
   ],
+  creditos: {
+    liderEquipo: [
+      {
+        nombre: 'Maria Camila Garcia Santamaria',
+        cargo: 'Líder del equipo',
+        centro: 'Dirección General',
+      },
+    ],
+    contenidoInstruccional: [
+      {
+        nombre: 'Rafael Neftalí Lizcano Reyes',
+        cargo: 'Asesor metodológico y pedagógico',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Diana Patricia Cufiño Parra',
+        cargo: 'Instructora',
+        centro:
+          'Regional Distrito Capital. Centro para la Industria de la Comunicación Gráfica.',
+      },
+      {
+        nombre: 'Jorge Enrique Villafradez Peña',
+        cargo: 'Instructor',
+        centro:
+          'Regional Distrito Capital. Centro para la Industria de la Comunicación Gráfica.',
+      },
+      {
+        nombre: 'Dayra Maritza Paz Calderón',
+        cargo: 'Diseñadora y Evaluadora Instruccional ',
+        centro: 'Regional Distrito Capital. Centro de Diseño y Metrología.',
+      },
+    ],
+    desarrolloProducto: [
+      {
+        nombre: 'Francisco José Lizcano Reyes',
+        cargo: 'Responsable del equipo',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Leyson Fabian Castaño Perez',
+        cargo: 'Soporte organizacional',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+      {
+        nombre: ['Yuly Andrea Rey Quiñonez'],
+        cargo: 'Diseño web',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Camilo Andres Bolaño Rey',
+        cargo: 'Desarrollo Front-End',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Nombre',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Veimar Celis Meléndez',
+        cargo: 'Validación de diseño y contenido',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+    ],
+    gestoresRepositorio: [
+      {
+        nombre: 'Milady Tatiana Villamil Castellanos',
+        cargo: 'Validación y vinculación en plataforma LMS',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+    ],
+  },
+  // creditosInicio: [
+  //   {
+  //     titulo: 'En alianza',
+  //     contenido: [
+  //       require('@/assets/template/logo-sena-naranja.svg'),
+  //       require('@/assets/template/mintic.jpg'),
+  //       require('@/assets/template/minsalud.jpg'),
+  //     ],
+  //   },
+  //   {
+  //     titulo: 'En compañía',
+  //     contenido: [
+  //       require('@/assets/template/presidencia.jpg'),
+  //       require('@/assets/template/ecopetrol.jpg'),
+  //     ],
+  //   },
+  //   {
+  //     titulo: 'Una iniciativa',
+  //     contenido: [require('@/assets/template/santander.jpg')],
+  //   },
+  // ],
 }

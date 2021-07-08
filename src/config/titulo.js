@@ -1,1 +1,1 @@
-module.exports = 'Conceptualización y metodologías epub'
+module.exports = 'Comunicación visual'
