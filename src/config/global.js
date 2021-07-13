@@ -140,21 +140,21 @@ export default {
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
       },
-      // {
-      //   nombreRuta: 'complementario',
-      //   icono: 'far fa-folder-open',
-      //   titulo: 'Material complementario',
-      // },
+      {
+        nombreRuta: 'complementario',
+        icono: 'far fa-folder-open',
+        titulo: 'Material complementario',
+      },
       {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
       },
-      {
-        icono: 'fas fa-download',
-        titulo: 'Descargar material',
-        download: 'downloads/material.zip',
-      },
+      // {
+      //   icono: 'fas fa-download',
+      //   titulo: 'Descargar material',
+      //   download: 'downloads/material.zip',
+      // },
       {
         icono: 'far fa-registered',
         titulo: 'Créditos',
@@ -361,12 +361,6 @@ export default {
       {
         nombre: 'Camilo Andres Bolaño Rey',
         cargo: 'Desarrollo Front-End',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
-        nombre: 'Nombre',
-        cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
