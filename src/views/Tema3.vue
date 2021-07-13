@@ -19,7 +19,7 @@ om<template lang="pug">
             figure
               img(src='@/assets/curso/img75.jpg', alt='Texto que describa la imagen')
           .col-xl-8
-            h4 La tabla de Kirchner (1671): 
+            h4 La tabla de Kirchner (1671) 
             p Presenta un modelo bidimensional con una línea que grada del blanco al negro pasando por el amarillo, el rojo y el azul. Unos arcos semicirculares dan paso a las combinaciones de color.
       .tarjeta.color--naranja-claro.p-4(titulo="Esfera de colores de Runge ").p-4
         .row
@@ -27,7 +27,7 @@ om<template lang="pug">
             figure
               img(src='@/assets/curso/img76.jpg', alt='Texto que describa la imagen')
           .col-xl-8
-            h4 La esfera de colores de Runge (1810): 
+            h4 La esfera de colores de Runge (1810)
             p Es un modelo tridimensional en el cual ubicamos el blanco y negro en los polos, los colores claros están en la capa externa del hemisferio superior y en el inferior, los oscuros. El ecuador contiene los “colores puros”. Una revisión de este modelo se vio en 1961 en el libro: Arte de los colores de Johannes Itten. 
       .tarjeta.color--naranja-claro.p-4(titulo="Cubos de color de Charpentier").p-4
         .row
@@ -35,7 +35,7 @@ om<template lang="pug">
             figure
               img(src='@/assets/curso/img77.jpg', alt='Texto que describa la imagen')
           .col-xl-8
-            h4 Los cubos de color de Charpentier (1885) y Hickethier (1940): 
+            h4 Los cubos de color de Charpentier (1885) y Hickethier (1940)
             p Que mostraban variaciones en la distribución de los colores, el primero distribuía los colores claros en el exterior y los oscuros al interior, mientras el segundo sugería el negro y los colores secundarios en los vértices superiores, y los colores primarios junto al blanco en los inferiores.
       .tarjeta.color--naranja-claro.p-4(titulo="Cuerpo de color de Ostwald").p-4
         .row
@@ -43,7 +43,7 @@ om<template lang="pug">
             figure
               img(src='@/assets/curso/img78.jpg', alt='Texto que describa la imagen')
           .col-xl-8
-            h4 El cuerpo de color de Ostwald (1915): 
+            h4 El cuerpo de color de Ostwald (1915) 
             p Que encierra los colores dentro de un doble cono en una distribución similar a la esfera de Runge, buscaba solucionar las diferencias en tonos de los diferentes grupos de color.
       .tarjeta.color--naranja-claro.p-4(titulo="Modelo de Munsell").p-4
         .row
@@ -51,7 +51,7 @@ om<template lang="pug">
             figure
               img(src='@/assets/curso/img79.jpg', alt='Texto que describa la imagen')
           .col-xl-8
-            h4 El modelo de Munsell (1905) y el modelo matemático de la Comisión Internacional de Iluminación (usualmente conocida como CIE por las iniciales de su designación en francés: 
+            h4 El modelo de Munsell (1905) y el modelo matemático de la Comisión Internacional de Iluminación (usualmente conocida como CIE por las iniciales de su designación en francés 
             p Commission Internationale de l’Éclairage) (1931): son los espacios de color más estudiados en la actualidad; sin embargo, los modelos de estudio del color y la forma de aplicar el color en la industria son dos temas ligeramente diferentes.
     #t_3_2.titulo-segundo
       h2 3.2 Teoría aditiva y sustractiva
@@ -778,7 +778,7 @@ om<template lang="pug">
                   li 
                     i.fas.fa-angle-right
                     | Gran armonizador, color neutralizador.
-    h4 Gran armonizador, color neutralizador.        
+    h4 Armonías de color        
     p.mb-5 La armonía en el color está dividida por secciones para evidenciar los aspectos de color y sus combinaciones que explican de manera visual el efecto que tienen los colores en todos los aspectos de la vida de las personas. Cada variación tonal refleja aspectos, cualidades que fueron identificados en los colores y las combinaciones, las cuales se usan para describir sus cualidades y propiedades, cómo combinarlos y contrastarlos. Al armonizar es posible que el conjunto o combinación armónica se asocie más a un concepto antiguo que a la belleza dinámica y moderna; para ello es útil el uso del círculo cromático (Salinas, 1994). 
     h5 Tipo de armonías:
     figure.mb-5 

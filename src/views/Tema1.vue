@@ -19,34 +19,34 @@
         .recuadro-adorno.p-4.mb-5
           p Se define como el arte de transmitir ideas o información con imágenes, símbolos o signos, pero también va más allá y ofrece nuevas experiencias. 
         .recuadro-adorno2.p-4
-          p Para Munari (1985) la comunicación visual es todo lo que ven nuestros ojos, una flor, una nube, una bandera, un dibujo etc. Toda imagen que tiene un valor según su contexto. Dado que se le está otorgando valor comunicativo a lo que puede percibirse con la vista, se debe aclarar que algunos mensajes serían casuales y otros intencionales; la comunicación visual casual, es la que no tiene intención alguna, esta es temporal y puede ser percibida o interpretada libremente por el receptor, dándole un significado científico o estético; por su parte la comunicación visual intencional es recibida en pleno significado con una intención del emisor, si bien la intencionalidad no libra al receptor de realizar interpretaciones. 
+          p Para Munari (1985), la comunicación visual es todo lo que ven nuestros ojos, una flor, una nube, una bandera, un dibujo etc. Toda imagen tiene un valor según su contexto. Dado que se le está otorgando valor comunicativo a lo que puede percibirse con la vista, se debe aclarar que algunos mensajes serían casuales y otros intencionales; la comunicación visual casual, es la que no tiene intención alguna, esta es temporal y puede ser percibida o interpretada libremente por el receptor, dándole un significado científico o estético; por su parte la comunicación visual intencional es recibida en pleno significado con una intención del emisor, si bien la intencionalidad no libra al receptor de realizar interpretaciones. 
       .col-lg-6 
         figure.mb-5
           img(src="@/assets/curso/img2.svg", alt="Texto que describa la imagen")
     p.mb-5 Los mensajes intencionales pueden ser vistos desde dos aspectos: 
     .row.mb-5
       .col-lg-5
-        .tarjeta-avatar-b.mb-5
+        .tarjeta-avatar-b.mb-5.h-100
           img(src='@/assets/curso/img3.svg' alt='AvatarTop')
-          .tarjeta.tarjeta--amarilla.h-100
+          .tarjeta.tarjeta--amarilla.d-flex.align-items-center
             .p-4
               p 
                 b La información estética: 
                 |líneas armónicas, relaciones volumétricas, construcciones tridimensionales, entre otras.
       .col-lg-1
       .col-lg-5
-        .tarjeta-avatar-b.mb-5
+        .tarjeta-avatar-b.mb-5.h-100
           img(src='@/assets/curso/img4.svg' alt='AvatarTop')
-          .tarjeta.tarjeta--amarilla.h-100
+          .tarjeta.tarjeta--amarilla.d-flex.align-items-center
             .p-4
               p 
                 b La información práctica: 
                 |dibujo técnico, una fotografía, las noticias, una señal.
-    p.mb-5 La comunicación visual pretende conseguir una respuesta, al igual que ocurre con la comunicación verbal o escrita. Y como ocurre con el lenguaje, también la comunicación visual se subdivide, en el lenguaje basado en la imagen y en los textos, llamado lenguaje bimedia (icónico y tipográficos), donde el lenguaje gráfico da lugar a ramificaciones técnicas como el lenguaje del color, signos funcionales, entre otros.
+    p.mb-5 La comunicación visual pretende conseguir una respuesta, al igual que ocurre con la comunicación verbal o escrita. Y como ocurre con el lenguaje, también la comunicación visual se subdivide, en el lenguaje basado en la imagen y en los textos, llamado lenguaje bimedia (icónico y tipográficos), donde el lenguaje gráfico da lugar a ramificaciones técnicas, como el lenguaje del color, signos funcionales, entre otros.
       br
       br
       | De acuerdo con los principios y funciones de la comunicación visual, en el proceso comunicativo se reconocen:
-    .row.mb-5
+    .row.mb-5(data-aos="slide-up")
       .col-md-3.col-lg.mb-5.mb-lg-0
         .tarjeta-avatar
           img(src='@/assets/curso/img5.svg' alt='AvatarTop')
@@ -106,7 +106,7 @@
     #t_1_1.titulo-segundo
       h2 1.1 Funciones de la comunicación visual
     p.mb-5 Se corresponden con las funciones generales de la comunicación, pero relacionadas directamente con los elementos que permiten la comunicación visual.
-    .row.mb-5.align-items-center
+    .row.mb-5.align-items-center(data-aos="fade-left")
       .col-lg-1.col-md-2.col-sm-3.col-xs-4.mb-3
           img(src='@/assets/curso/img10.svg' alt='AvatarTop')
       .col-lg-11.col-md-10.col-sm-9.col-xs-8.mb-3
@@ -158,7 +158,7 @@
           img.mb-2(src="@/assets/curso/img17.svg", alt="Texto que describa la imagen")
           figcaption Fuente: propia
       .col-lg-6
-        p La utilización de la imagen en diferentes culturas implica una serie de intereses comunes definidos en los elementos gráficos y su significado, estos valores dependen del código y su contexto, de allí la importancia de conocer la realidad en que está inmersa una imagen, comprender las normas y signos utilizados donde el proceso de significación depende también de la asociación de ideas establecidas en una comunidad, esta se forja por los convencionalismos, condicionados por las circunstancias y lugares en que se producen.
+        p La utilización de la imagen en diferentes culturas implica una serie de intereses comunes definidos en los elementos gráficos y su significado, estos valores dependen del código y su contexto, de allí la importancia de conocer la realidad en que está inmersa una imagen, comprender las normas y signos utilizados, donde el proceso de significación depende también de la asociación de ideas establecidas en una comunidad, esta se forja por los convencionalismos, condicionados por las circunstancias y lugares en que se producen.
     p.mb-5 Un claro ejemplo es el significado e interpretación dada a los colores de la bandera de Colombia.  
     .row.justify-content-center.mb-5 
       .col-lg-10
@@ -188,7 +188,8 @@
       .col-lg-6 
         figure.mb-5
           img.mb-2(src="@/assets/curso/img19.svg", alt="Texto que describa la imagen")
-      .col-lg-6 
+      .col-lg-6
+        p Una vez emitido el mensaje al receptor, se encontrarán otros obstáculos, cada receptor interpreta el mensaje de manera diferente, ello debido a que cada individuo tiene “filtros”, por los cuales ha de pasar el mensaje para que sea recibido.
         p Estos filtros son: 
         p 
           b Sensorial:  
@@ -245,30 +246,32 @@
               h2.text-center Simbólicamente 
               p.text-center El universo de sistemas de símbolos codificados creados por el hombre arbitrariamente, a los que se les asigna significado.
     SlyderB.mb-5(:datos="datosSlyder1")
+    h4 Elementos de diseño y comunicación visual 
+    p.mb-5 De acuerdo con Díaz (2019), los elementos del mensaje visual son la base de la comunicación visual, estos son:
     .row.mb-5
       .col-lg-5
         .tarjeta-avatar-b.mb-5.h-100
           img(src='@/assets/curso/img30.svg' alt='AvatarTop')
           .tarjeta.tarjeta--naranja.d-flex
             .p-4.my-auto
-              h3 Línea punto y formas:
-              p da origen a múltiples elementos.
+              h3 Línea punto y formas
+              p Da origen a múltiples elementos.
       .col-lg-1
       .col-lg-5
         .tarjeta-avatar-b.mb-5.h-100
           img(src='@/assets/curso/img31.svg' alt='AvatarTop')
           .tarjeta.tarjeta--naranja.d-flex
             .p-4.my-auto
-              h3 El color:
-              p el valor del color en el lenguaje social representa y se asocia con muchos significados, establecidos por convenciones culturales y sociales, que determinan la asignación de colores.
+              h3 El color
+              p El valor del color en el lenguaje social representa y se asocia con muchos significados, establecidos por convenciones culturales y sociales, que determinan la asignación de colores.
     .row.mb-5
       .col-lg-5
         .tarjeta-avatar-b.mb-5.h-100
           img(src='@/assets/curso/img32.svg' alt='AvatarTop')
           .tarjeta.tarjeta--naranja.d-flex
             .p-4.my-auto
-              h3 Tipografía: 
-              p aportan a la construcción del mensaje de manera escrita junto con la identidad. 
+              h3 Tipografía 
+              p Aportan a la construcción del mensaje de manera escrita junto con la identidad. 
 
 
       .col-lg-1
@@ -277,8 +280,8 @@
           img(src='@/assets/curso/img33.svg' alt='AvatarTop')
           .tarjeta.tarjeta--naranja.d-flex
             .p-4.my-auto
-              h3 Espacio:
-              p su manejo en equilibrio o alteración facilitan la comunicación, que junto con la tipografía y la imagen pueden comprimir o aumentar el aire en la composición. 
+              h3 Espacio
+              p Su manejo en equilibrio o alteración facilitan la comunicación, que junto con la tipografía y la imagen pueden comprimir o aumentar el aire en la composición. 
     #t_1_4.titulo-segundo
       h2 1.4 Análisis y percepción de la imagen
     .row.mb-5
@@ -290,6 +293,8 @@
       .col-lg-6
         figure.mb-5
           img.mb-2(src="@/assets/curso/img34.jpg", alt="Texto que describa la imagen")
+    #t_1_5.titulo-segundo
+      h2 1.5 Semiótica, retórica y sintaxis de la imagen
     .row.mb-5
       .col-lg-6
         p La semiótica de la imagen es el estudio del signo icónico y los procesos de significación o dación de sentido (dar sentido a algo) a partir de una imagen. El estudio de las imágenes y las comunicaciones visuales es muy amplio y va más allá de lo pictórico o visual; como lo son el análisis de color, forma, iconos y composición, entre otros, ciertamente las imágenes hacen y deben ser parte de la cultura; de ahí la importancia de reflexionar cómo se construyen en los procesos de comunicación visual.
@@ -353,33 +358,33 @@ export default {
     mostrarIndicador: true,
     datosSlyder1: [
       {
-        titulo: 'La representación: ',
+        titulo: 'La representación',
         texto:
-          'experiencia visual compartida por todos los individuos de una misma cultura, obtenida en diversos niveles de experiencia.',
+          'Experiencia visual compartida por todos los individuos de una misma cultura, obtenida en diversos niveles de experiencia.',
         imagen: require('@/assets/curso/img25.jpg'),
       },
       {
-        titulo: 'El efecto realista:',
+        titulo: 'El efecto realista',
         texto:
-          'dado por la experiencia desde el punto de vista de otra persona, como un boceto, una fotografía. El mensaje puede modificarse de manera subjetiva. ',
+          'Dado por la experiencia desde el punto de vista de otra persona, como un boceto, una fotografía. El mensaje puede modificarse de manera subjetiva. ',
         imagen: require('@/assets/curso/img26.jpg'),
       },
       {
-        titulo: 'La realidad: ',
+        titulo: 'La realidad',
         texto:
-          'expresada por pintores o artistas junto con la inspiración y los métodos',
+          'Expresada por pintores o artistas junto con la inspiración y los métodos',
         imagen: require('@/assets/curso/img27.jpg'),
       },
       {
-        titulo: 'La fotografía:',
+        titulo: 'La fotografía',
         texto:
-          'medio de representación de la realidad visual mediante la técnica, es el registro visual que se pretende representar lo más fiel posible a la realidad.',
+          'Medio de representación de la realidad visual mediante la técnica, es el registro visual que se pretende representar lo más fiel posible a la realidad.',
         imagen: require('@/assets/curso/img28.jpg'),
       },
       {
-        titulo: 'Simbolismo:',
+        titulo: 'Simbolismo',
         texto:
-          'la abstracción de símbolos con la intención de transmitir un mensaje efectivo con cierta cantidad de información.',
+          'La abstracción de símbolos con la intención de transmitir un mensaje efectivo con cierta cantidad de información.',
         imagen: require('@/assets/curso/img29.jpg'),
       },
     ],

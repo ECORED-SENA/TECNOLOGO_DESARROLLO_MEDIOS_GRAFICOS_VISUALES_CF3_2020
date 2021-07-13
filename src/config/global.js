@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Comunicación visual',
     descripcionCurso:
-      'La comunicación visual, como disciplina de las ciencias humanas y sociales unida a las vertientes tecnológicas y sociales, es considerada la vía para llegar al público de una manera directa, su atención se centra en las imágenes antes que las palabras, de allí «una imagen vale más que mil palabras». ',
+      'La comunicación visual, como disciplina de las ciencias humanas y sociales, unida a las vertientes tecnológicas y sociales, es considerada la vía para llegar al público de una manera directa, su atención se centra en las imágenes antes que las palabras, de allí «una imagen vale más que mil palabras».<br><br>En un mundo donde la imagen domina nuestra manera de percibir la realidad que nos rodea, el aprendiz será partícipe de procesos de creación de imágenes al comprender su estructura, funcionamiento, y características, bajo los conceptos de estética e información, percepción y decodificación; demás reconocerá elementos intrínsecos y extrínsecos involucrados en la creación de contenidos visualmente atractivos, que facilitan procesos de comunicación efectivos, éticos y estéticos, pertinentes a las necesidades empresariales y sociales propias de la industria creativa y cultural.',
     imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.svg'),
   },
@@ -333,6 +333,12 @@ export default {
         cargo: 'Diseñadora y Evaluadora Instruccional ',
         centro: 'Regional Distrito Capital. Centro de Diseño y Metrología.',
       },
+      {
+        nombre: 'Jhana Johanna Bustillo Ardila',
+        cargo: 'Revisión de estilo',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
     ],
     desarrolloProducto: [
       {
@@ -365,7 +371,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Veimar Celis Meléndez',
+        nombre: 'Yuli Marcela Gómez Tarazona',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

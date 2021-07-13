@@ -82,14 +82,14 @@
         figure.mb-5 
           img(src='@/assets/curso/img122.jpg', alt='Texto que describa la imagen')
       .col-lg-6
-        h3 La bitácora: 
+        h3 La bitácora
         p Tanto en los procesos de formación como el más experto profesional, lleva o debería llevar una bitácora o libro de apuntes dedicado a la elaboración de bocetos. Estos apuntes y dibujos rápidos son la diferencia entre un proyecto con bases firmes y la improvisación.
     .row.mb-5
       .col-lg-5
         figure.mb-5 
           img(src='@/assets/curso/img123.jpg', alt='Texto que describa la imagen')
       .col-lg-6
-        h3 Recursos gráficos:
+        h3 Recursos gráficos
         p Lo mejor de la bocetación es que es un recurso creativo de bajo costo. Cualquier superficie es válida para rayar, si bien es más recomendable una libreta o cuaderno que permita la conservación y protección del material. Es más importante y valiosa la capacidad de observación, un entorno tranquilo y consumir material gráfico. La creatividad necesita nutrirse para poder crecer y sobresalir.
 
 
@@ -119,35 +119,35 @@ export default {
   data: () => ({
     datosSlyder: [
       {
-        titulo: 'Dibujo espontáneo:',
+        titulo: 'Dibujo espontáneo',
         texto:
           'Se raya aleatoriamente sin tener nada específico en mente, luego se <b>“busca”</b> entre las líneas la posible figura a trabajar.',
         imagen: require('@/assets/curso/img114.jpg'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
       {
-        titulo: 'Boceto-mini: ',
+        titulo: 'Boceto-mini',
         texto:
           'Ya se ha dicho que un boceto debe estar a escala, sin embargo, en este tipo de boceto se hace más pequeño para disminuir los detalles.',
         imagen: require('@/assets/curso/img115.jpg'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
       {
-        titulo: 'Boceto quemado: ',
+        titulo: 'Boceto quemado',
         texto:
           'Se rellena la forma para evaluar la contraforma, esto permite evaluar la legibilidad y el uso del espacio.',
         imagen: require('@/assets/curso/img116.jpg'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
       {
-        titulo: 'Boceto de contorno: ',
+        titulo: 'Boceto de contorno',
         texto:
           'El nombre lo explica, sólo se dibujan los contornos con mínimos detalles, es ideal para la construcción de escenas grandes.',
         imagen: require('@/assets/curso/img117.jpg'),
         // leyendaImagen: 'Leyenda de la imagen',
       },
       {
-        titulo: 'Experimentación de mancha: ',
+        titulo: 'Experimentación de mancha',
         texto:
           'Similar al dibujo espontáneo, pero se utilizan áreas de tinta o alguna aguada y de allí se extraen las ideas.',
         imagen: require('@/assets/curso/img118.jpg'),
